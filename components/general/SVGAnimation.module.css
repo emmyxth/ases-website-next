@@ -1,0 +1,22 @@
+/* SVGAnimation.css */
+.svgContainer svg path {
+    fill: none;
+    stroke: #D9D9D9; /* Change to your desired stroke color */
+    stroke-width: 0.75;
+    stroke-dasharray: 30000;
+    stroke-dashoffset: 30000;
+    animation: draw 300s linear forwards;
+    animation-play-state: paused; /* Start with animation paused */
+  }
+  
+  @keyframes draw {
+    to {
+      stroke-dashoffset: 0;
+    }
+  }
+  
+  @keyframes draw {
+    to {
+      stroke-dashoffset: 0;
+    }
+  }
