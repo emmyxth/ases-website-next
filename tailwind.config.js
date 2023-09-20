@@ -11,6 +11,24 @@ module.exports = {
         inter: ["var(--font-inter)"],
         space: ["var(--font-space-grotesk)"],
       },
+      maxWidth: {
+        840: "840px",
+      },
+      spacing: {
+        90: "90px",
+      },
+      screens: {
+        mobile: "250px",
+        // => @media (min-width: 640px) { ... }
+        tablet: "640px",
+        // => @media (min-width: 640px) { ... }
+
+        laptop: "1024px",
+        // => @media (min-width: 1024px) { ... }
+
+        desktop: "1280px",
+        // => @media (min-width: 1280px) { ... }
+      },
     },
   },
   plugins: [],

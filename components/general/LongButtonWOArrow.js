@@ -1,24 +1,23 @@
 import React from "react";
 import Button from "@mui/material/Button";
-import { alpha, styled } from "@mui/material/styles";
-import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 
 const LongButtonWOArrowCustomized = ({ text }) => {
   return (
     <>
       <Button
         sx={{
-          color: "white",
+          color: "black",
           backgroundColor: "black",
           borderRadius: 3,
           px: "calc(45px + 4vmin)",
           py: 2,
           fontFamily: "Inter",
+          border: "1.2px solid black",
           fontSize: "calc(7px + 1.6vmin)",
           textTransform: "none",
           "&:hover": {
-            backgroundColor: "white",
-            color: "black",
+            backgroundColor: "black",
+            color: "white",
             border: "1px solid black",
           },
         }}
