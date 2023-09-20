@@ -1,0 +1,18 @@
+.desktop,
+.mobile {
+  display: none;
+}
+
+/* Show desktop elements for screen widths equal to or above 768px */
+@media (min-width: 1024px) {
+  .desktop {
+    display: block;
+  }
+}
+
+/* Show mobile elements for screen widths below 768px */
+@media (max-width: 1023px) {
+  .mobile {
+    display: block;
+  }
+}

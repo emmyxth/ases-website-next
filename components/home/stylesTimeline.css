@@ -1,0 +1,35 @@
+body {
+    --blue: #4470B6;
+  
+    --background: var(--white);
+    --accent: var(--black);
+  
+    margin: 0;
+    padding: 0;
+    color: var(--accent);
+    padding-bottom: 100px;
+  }
+  
+  .background-container {
+    background-image: url('/public/media/timeline_line.svg');
+    background-repeat: no-repeat;
+    background-size: contain; 
+    background-position: center center; 
+    background-position-y: 17rem;
+  }
+  @media (max-width: 1024px) {
+    .background-container {
+        background-image: none;
+    }
+}
+  
+  .progress-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 20px;
+    background: var(--blue);
+    transform-origin: 0%;
+  }
+  

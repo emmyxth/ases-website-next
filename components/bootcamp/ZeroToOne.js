@@ -1,6 +1,6 @@
 export default function ZeroToOne() {
   return (
-    <div className="flex flex-col items-end laptop:pe-24 mobile:pe-0 laptop:pt-24 mobile:pt-12 items-center ">
+    <div className="flex flex-col items-end desktop:pe-24 mobile:pe-0 desktop:pt-24 mobile:pt-12 items-center ">
       <p
         style={{
           fontSize: "calc(12px + 2vmin)",
@@ -10,7 +10,7 @@ export default function ZeroToOne() {
       >
         Take your ideas from
       </p>
-      <div className="text-center flex mobile:flex-row laptop:flex-col mobile:gap-x-8 mobile:items-center">
+      <div className="text-center flex mobile:flex-row desktop:flex-col mobile:gap-x-8 mobile:items-center">
         <h1
           style={{
             fontSize: "calc(64px + 10vmin)",

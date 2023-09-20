@@ -1,0 +1,30 @@
+.logo-slider {
+    overflow: hidden;
+    display: flex;
+  }
+
+  .logos {
+    display: flex;
+    animation: marquee 20s linear infinite;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .logo {
+    min-width: 250px;
+    padding-right: 30px;
+    padding-left: 30px;
+    width: 100%;
+  }
+
+/* .logo-slider:hover .logos {
+  animation-play-state: paused;
+} */
+  
+  @keyframes marquee {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0%);
+    }
+  }
