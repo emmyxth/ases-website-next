@@ -6,10 +6,12 @@
 // import BootcampApply from "./sections/BootcampApply";
 import LongButtonWArrowCustomized from "@/components/general/LongButtonWArrow";
 import Footer from "@/components/general/Footer";
+import Topbar from "@/components/general/Topbar";
 
 export default function Bootcamp() {
   return (
     <>
+      <Topbar />
       <h1>hello</h1>
       <LongButtonWArrowCustomized text="hello" />
       <Footer />
