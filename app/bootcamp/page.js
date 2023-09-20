@@ -7,12 +7,24 @@
 import LongButtonWArrowCustomized from "@/components/general/LongButtonWArrow";
 import Footer from "@/components/general/Footer";
 import Topbar from "@/components/general/Topbar";
+import ProfileCard from "@/components/general/ProfileCard";
+import profileData from "../../public/textContent/homeProfileCards.json";
 
 export default function Bootcamp() {
   return (
     <>
       <Topbar />
-      <h1>hello</h1>
+      <h1 className="font-space">hello</h1>
+      {profileData.map((m) => {
+        return (
+          <ProfileCard
+            name={m.name}
+            role={m.role}
+            hoveredText={m.description}
+            image={m.image}
+          />
+        );
+      })}
       <LongButtonWArrowCustomized text="hello" />
       <Footer />
       {/* <TopBar />
