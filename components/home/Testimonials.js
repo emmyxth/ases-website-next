@@ -60,7 +60,7 @@ export default function Testimonials() {
         <TypingText
           textStyle={{
             fontFamily: "Space Grotesk",
-            fontSize: "calc(30px + 3vmin)",
+            fontSize: "calc(25px + 3vmin)",
             fontWeight: "400",
             lineHeight: "2.5rem",
             marginBottom: "4%",
