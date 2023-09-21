@@ -7,6 +7,7 @@ import CardContent from "@mui/material/CardContent";
 import Typography from "@mui/material/Typography";
 import React from "react";
 import { useState } from "react";
+import Image from "next/image";
 
 const ProfileCard = ({ name, role, hoveredText, image }) => {
   const [isHovered, setIsHovered] = useState(false);
@@ -19,6 +20,7 @@ const ProfileCard = ({ name, role, hoveredText, image }) => {
           backgroundColor: "F8F9FC",
           border: "1px solid black",
           borderRadius: 3,
+
           "&:hover": {
             backgroundColor: "black",
           },
@@ -28,14 +30,19 @@ const ProfileCard = ({ name, role, hoveredText, image }) => {
       >
         {!isHovered && (
           <>
-            <CardMedia
-              sx={{
-                height: "calc(250px + 2vmin)",
-                borderBottom: "1px solid black",
-              }}
-              image={image}
-              title="Profile Image"
-            />
+            <div
+              style={{ height: "calc(250px + 2vmin)", position: "relative" }}
+            >
+              <Image
+                style={{
+                  borderBottom: "1px solid black",
+                  objectFit: "cover",
+                }}
+                src={image}
+                fill={true}
+                title="Profile Image"
+              />
+            </div>
             <CardContent
               sx={{
                 display: "flex",

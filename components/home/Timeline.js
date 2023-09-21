@@ -1,3 +1,5 @@
+"use client";
+
 import TimelineComponentA from "../../../components/TimelineComponent-a";
 import timelineData from "../../../textContent/homeTimeline.json";
 import { motion, useScroll } from "framer-motion";
