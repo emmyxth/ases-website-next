@@ -2,7 +2,7 @@ import Image from "next/image";
 import Head from "next/head";
 import Footer from "@/components/general/Footer";
 import Hero from "@/components/home/Hero";
-// import Since1988 from "./sections/Since1988.js";
+import Since1988 from "@/components/home/Since1988.js";
 // import Testimonials from "./sections/Testimonials.js";
 // import Timeline from "./sections/Timeline.js";
 // import FAQs from "./sections/FAQs.jsx";
@@ -26,8 +26,8 @@ export default function Home() {
       <Box>
         <TopBar />
         <Hero />
-        {/* <Since1988 />
-        <Testimonials />
+        <Since1988 />
+        {/* <Testimonials />
         <Timeline />
         <FAQs />
         <SponsorsBanner /> */}

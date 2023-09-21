@@ -1,8 +1,8 @@
 import React from "react";
 import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
-import Since1988Image from "../../../images/Since1988Image.png";
-import TypingText from "../../../components/TypingText.jsx";
+import TypingText from "../general/TypingText";
+import Image from "next/image";
 
 export default function Since1988() {
   return (
@@ -53,21 +53,22 @@ export default function Since1988() {
             members to think beyond Silicon Valley and solve global problems.
           </Typography>
         </Box>
-        <Box
+        <div
           style={{
             flex: 1,
             backgroundColor: "rgba(236, 132, 140, 0.44)",
             overflow: "hidden",
-            // height: "500px",
             width: "100%",
+            position: "relative",
           }}
         >
-          <img
-            src={Since1988Image}
+          <Image
+            src="/Since1988Image.png"
             alt={"Since1988Image"}
-            style={{ height: "100%", width: "100%", objectFit: "cover" }}
+            fill={true}
+            style={{ objectFit: "cover" }}
           />
-        </Box>
+        </div>
       </Box>
     </a>
   );
