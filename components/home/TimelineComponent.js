@@ -10,15 +10,9 @@ export default function TimelineComponentA({
   timeframe,
   link,
 }) {
-  // const navigate = useNavigate();
-
-  // const handleClick = () => {
-  //   navigate(link);
-  // };
-
   return (
     <div className="flex desktop:flex-row mobile:flex-col pt-5 desktop:align-start mobile:align-center space-y-8 mobile:pb-8 mobile:border-b-2 desktop:border-none">
-      <div className="flex flex-col gap-4 desktop:items-start mobile:items-center desktop:text-start mobile:text-center justify-start desktop:w-1/2 mobile:w-full desktop:pe-20 desktop:space-y-8">
+      <div className="flex flex-col desktop:items-start mobile:items-center desktop:text-start mobile:text-center justify-start desktop:w-1/2 mobile:w-full desktop:pe-20 gap-y-8">
         <h1
           style={{
             fontSize: "calc(16px + 2vmin)",
@@ -32,21 +26,24 @@ export default function TimelineComponentA({
           <ShortButtonCustomized text="Learn more" />
         </Link>
       </div>
-      <div className="flex flex-1 flex-col-reverse desktop:items-end mobile:items-center">
-        <img
-          src={image}
-          alt={header}
+      <div className="flex flex-1 flex-col-reverse desktop:items-end mobile:items-center justify-center">
+        <div
           style={{
-            width: "400px", // Set a fixed width
-            height: "auto",
-            "@media (max-width: 800px)": {
-              width: "80%", // Change the width to 80%
-            },
-            "@media (max-width: 640px)": {
-              width: "50%", // Change the width to 80%
-            },
+            width: "38vw", // Set a fixed width
+            height: "30vw",
+            position: "relative",
           }}
-        />
+        >
+          <Image
+            src={image}
+            alt={header}
+            fill={true}
+            style={{
+              objectFit: "cover",
+            }}
+          />
+        </div>
+
         <h1
           style={{
             fontSize: "calc(8px + 2vmin)",

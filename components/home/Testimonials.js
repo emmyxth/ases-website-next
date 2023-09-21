@@ -51,10 +51,7 @@ export default function Testimonials() {
       <Box
         sx={{
           padding: "2rem",
-          paddingY: "5rem",
-          "@media (max-width: 1024px)": {
-            padding: "1rem",
-          },
+          paddingY: "5%",
         }}
       >
         <TypingText
