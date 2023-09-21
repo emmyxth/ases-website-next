@@ -1,15 +1,13 @@
+"use client";
 import React, { useState } from "react";
-import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
-import Since1988Image from "../../../images/Since1988Image.png";
-import TypingText from "../../../components/TypingText.jsx";
-import ProfileCard from "../../../components/ProfileCard.js";
-import profileData from "../../../textContent/homeProfileCards.json";
-import gradient from "./gradient.mp4";
+import TypingText from "../general/TypingText";
+import ProfileCard from "../general/ProfileCard.js";
+import profileData from "@/public/textContent/homeProfileCards.json";
 import NavigateNextIcon from "@mui/icons-material/NavigateNext";
 import IconButton from "@mui/material/IconButton";
 import NavigateBeforeIcon from "@mui/icons-material/NavigateBefore";
-import "./Testimonials.css";
+import styles from "./Testimonials.module.css";
 
 export default function Testimonials() {
   const [currentCardIndex, setCurrentCardIndex] = useState(0);
@@ -35,7 +33,7 @@ export default function Testimonials() {
       }}
     >
       <video
-        src={gradient}
+        src="./gradient.mp4"
         autoPlay
         loop
         muted
@@ -75,7 +73,7 @@ export default function Testimonials() {
           words={["What our members say"]}
           noDelete={true}
         />
-        <Box className="desktop">
+        <Box className={styles.desktop}>
           <Box
             sx={{
               display: "flex",
@@ -96,7 +94,7 @@ export default function Testimonials() {
             })}
           </Box>
         </Box>
-        <Box className="mobile">
+        <Box className={styles.mobile}>
           <Box
             sx={{
               display: "flex",
