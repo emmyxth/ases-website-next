@@ -1,16 +1,25 @@
-import React, { useState, useEffect } from "react";
-import Pear from "../../../images/Pear.png";
-import Renn from "../../../images/Renn.png";
-import Softbank from "../../../images/Softbank.png";
-import Think from "../../../images/Think.png";
-import WIL from "../../../images/WIL.png";
-import ZhenFund from "../../../images/ZhenFund.png";
+"use client";
+import React from "react";
+// import Pear from "@/public/Pear.png";
+// import Renn from "@/public/Renn.png";
+// import Softbank from "@/public/Softbank.png";
+// import Think from "@/public/Think.png";
+// import WIL from "@/public/WIL.png";
+// import ZhenFund from "@/public/ZhenFund.png";
 import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
-import "./SponsorsBanner.css";
+import styles from "./SponsorsBanner.module.css";
+import Image from "next/image";
 
 const SponsorsBanner = () => {
-  const images = [Pear, Renn, Softbank, Think, WIL, ZhenFund];
+  const images = [
+    "/Pear.png",
+    "/Renn.png",
+    "/Softbank.png",
+    "/Think.png",
+    "/WIL.png",
+    "/ZhenFund.png",
+  ];
 
   return (
     <a id="sponsors">
@@ -19,31 +28,35 @@ const SponsorsBanner = () => {
           sx={{
             fontFamily: "Space Grotesk",
             fontSize: 30,
-            fontWeight: 600,
+            fontWeight: 500,
             textAlign: "center",
             marginTop: 2,
           }}
         >
           Sponsored by
         </Typography>
-        <Box className="logo-slider">
-          <Box className="logos">
+        <Box className={styles.logoSlider}>
+          <Box className={styles.logos}>
             {images.map((image, index) => (
-              <img
+              <Image
                 key={index}
                 src={image}
                 alt={`Sponsor Logos`}
-                className="logo"
+                width="500"
+                height="200"
+                className={styles.logo}
               />
             ))}
           </Box>
-          <Box className="logos">
+          <Box className={styles.logos}>
             {images.map((image, index) => (
-              <img
+              <Image
                 key={index}
                 src={image}
                 alt={`Sponsor Logos`}
-                className="logo"
+                width="500"
+                height="200"
+                className={styles.logo}
               />
             ))}
           </Box>

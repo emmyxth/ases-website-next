@@ -6,7 +6,7 @@ import Since1988 from "@/components/home/Since1988.js";
 import Testimonials from "@/components/home/Testimonials.js";
 import Timeline from "@/components/home/Timeline.js";
 import FAQs from "@/components/home/FAQSection.jsx";
-// import SponsorsBanner from "@/components/homeSponsorsBanner.js";
+import SponsorsBanner from "@/components/home/SponsorsBanner";
 import TopBar from "@/components/general/Topbar";
 import Box from "@mui/material/Box";
 
@@ -30,7 +30,7 @@ export default function Home() {
         <Testimonials />
         <Timeline />
         <FAQs />
-        {/* <SponsorsBanner /> */}
+        <SponsorsBanner />
         <Footer />
       </Box>
     </>
