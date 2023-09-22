@@ -292,7 +292,6 @@ export default function Topbar() {
             }}
           >
             Programs
-            <KeyboardArrowDownIcon />
           </ListItem>
         </Link>
         <Link href="/#about" style={{ textDecoration: "none" }}>
