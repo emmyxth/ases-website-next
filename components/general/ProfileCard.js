@@ -34,13 +34,18 @@ const ProfileCard = ({ name, role, hoveredText, image }) => {
               style={{ height: "calc(250px + 2vmin)", position: "relative" }}
             >
               <Image
+                className="w-full h-auto"
                 style={{
                   borderBottom: "1px solid black",
                   objectFit: "cover",
                 }}
                 src={image}
                 fill={true}
+                // width="268"
+                // height="265"
                 title="Profile Image"
+                sizes="268px"
+                priority={true}
               />
             </div>
             <CardContent

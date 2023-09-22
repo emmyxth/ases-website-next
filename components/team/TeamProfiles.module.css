@@ -1,0 +1,51 @@
+.desktop,
+.mobile {
+  display: none;
+}
+
+.gridContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Creates three equal-width columns */
+  gap: 40px; /* Adds spacing between grid items */
+  padding: 40px; /* Adds padding to the container */
+}
+
+.profile_cards {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  overflow: hidden;
+  height: 4500px;
+
+}
+
+.teams_gradient {
+  position: absolute;
+  width: 100%;
+  height: 5000px;
+  object-fit: cover;
+  z-index: -100;
+  top: -30px;
+}
+
+
+@media (min-width: 640px) {
+  .desktop {
+    display: block;
+  }
+}
+
+
+@media (max-width: 640px) {
+  .mobile {
+    display: block;
+  }
+  .teams_gradient {
+    height: 600px;
+  }
+  .profile_cards {
+    height: 500px;
+  }
+}
