@@ -1,7 +1,7 @@
 import Box from "@mui/material/Box";
 import React from "react";
 import Typography from "@mui/material/Typography";
-import LongButtonWOArrow from "../../../components/LongButtonWOArrow"
+import LongButtonWOArrow from "../general/LongButtonWOArrow"
 
 export default function Apply() {
 
