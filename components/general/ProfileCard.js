@@ -41,8 +41,6 @@ const ProfileCard = ({ name, role, hoveredText, image }) => {
                 }}
                 src={image}
                 fill={true}
-                // width="268"
-                // height="265"
                 title="Profile Image"
                 sizes="268px"
                 priority={true}
@@ -57,25 +55,23 @@ const ProfileCard = ({ name, role, hoveredText, image }) => {
                 padding: "0.5rem",
               }}
             >
-              <Typography
-                color="text.primary"
-                align="center"
-                sx={{
+              <h1
+                className="font-inter"
+                style={{
                   fontSize: "calc(10px + 1vmin)",
                 }}
               >
                 {name}
-              </Typography>
-              <Typography
-                variant="body2"
-                color="text.secondary"
-                align="center"
-                sx={{
-                  fontSize: "calc(8px + 1vmin)",
+              </h1>
+              <p
+                className="font-inter"
+                style={{
+                  fontSize: "calc(6px + 1vmin)",
+                  color: "grey",
                 }}
               >
                 {role}
-              </Typography>
+              </p>
             </CardContent>
           </>
         )}
