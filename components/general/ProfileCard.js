@@ -2,7 +2,6 @@
 import { Box } from "@mui/material";
 import CardMedia from "@mui/material/CardMedia";
 import Card from "@mui/material/Card";
-import { styled } from "@mui/material/styles";
 import CardContent from "@mui/material/CardContent";
 import Typography from "@mui/material/Typography";
 import React from "react";

@@ -1,19 +1,16 @@
-"use client";
-
 import TimelineComponent from "./TimelineComponent";
 import timelineData from "@/public/textContent/homeTimeline.json";
-import { motion, useScroll } from "framer-motion";
-import "./stylesTimeline.css";
+import styles from "./stylesTimeline.module.css";
 
 export default function Timeline() {
-  const { scrollYProgress } = useScroll();
   return (
     <>
       <a id="programs">
         <div
-          class="background-container bg-white"
+          className={styles.backgroundContainer}
           style={{
             padding: "4rem",
+            backgroundColor: "white",
             "@media (max-width: 800px)": {
               padding: "2rem",
             },
