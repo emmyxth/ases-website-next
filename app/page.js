@@ -5,8 +5,8 @@ import Hero from "@/components/home/Hero";
 import Since1988 from "@/components/home/Since1988.js";
 import Testimonials from "@/components/home/Testimonials.js";
 import Timeline from "@/components/home/Timeline.js";
-// import FAQs from "./sections/FAQs.jsx";
-// import SponsorsBanner from "./sections/SponsorsBanner.js";
+import FAQs from "@/components/home/FAQSection.jsx";
+// import SponsorsBanner from "@/components/homeSponsorsBanner.js";
 import TopBar from "@/components/general/Topbar";
 import Box from "@mui/material/Box";
 
@@ -29,8 +29,8 @@ export default function Home() {
         <Since1988 />
         <Testimonials />
         <Timeline />
-        {/* <FAQs />
-        <SponsorsBanner /> */}
+        <FAQs />
+        {/* <SponsorsBanner /> */}
         <Footer />
       </Box>
     </>
