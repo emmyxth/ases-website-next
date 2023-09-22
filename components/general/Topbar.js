@@ -182,7 +182,6 @@ export default function Topbar() {
           <Toolbar
             sx={{
               background: "white",
-              borderBottom: "1px solid black",
             }}
           >
             <Image
