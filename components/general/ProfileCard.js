@@ -19,18 +19,21 @@ const ProfileCard = ({ name, role, hoveredText, image }) => {
           backgroundColor: "F8F9FC",
           border: "1px solid black",
           borderRadius: 3,
-
-          "&:hover": {
-            backgroundColor: "black",
-          },
         }}
-        onMouseEnter={() => setIsHovered(true)}
+        onMouseEnter={() => {
+          if (hoveredText !== "") {
+            setIsHovered(true);
+          }
+        }}
         onMouseLeave={() => setIsHovered(false)}
       >
         {!isHovered && (
           <>
             <div
-              style={{ height: "calc(250px + 2vmin)", position: "relative" }}
+              style={{
+                height: "calc(250px + 2vmin)",
+                position: "relative",
+              }}
             >
               <Image
                 className="w-full h-auto"
@@ -76,11 +79,18 @@ const ProfileCard = ({ name, role, hoveredText, image }) => {
         )}
         {isHovered && (
           <>
-            <CardContent>
-              <Typography variant="body2" color="white">
-                {hoveredText}
-              </Typography>
-            </CardContent>
+            <div
+              style={{
+                backgroundColor: "black",
+                height: "100%",
+              }}
+            >
+              <CardContent>
+                <Typography variant="body2" color="white">
+                  {hoveredText}
+                </Typography>
+              </CardContent>
+            </div>
           </>
         )}
       </Card>
