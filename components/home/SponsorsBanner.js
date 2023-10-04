@@ -22,8 +22,9 @@ const SponsorsBanner = () => {
   ];
 
   return (
-    <a id="sponsors">
-      <Box sx={{ borderTop: "1px solid black", background: "white" }}>
+    // <a  suppressHydrationWarning>
+    <Box sx={{ borderTop: "1px solid black", background: "white" }}>
+      <a id="sponsors">
         <Typography
           sx={{
             fontFamily: "Space Grotesk",
@@ -35,34 +36,36 @@ const SponsorsBanner = () => {
         >
           Sponsored by
         </Typography>
-        <Box className={styles.logoSlider}>
-          <Box className={styles.logos}>
-            {images.map((image, index) => (
-              <Image
-                key={index}
-                src={image}
-                alt={`Sponsor Logos`}
-                width="500"
-                height="200"
-                className={styles.logo}
-              />
-            ))}
-          </Box>
-          <Box className={styles.logos}>
-            {images.map((image, index) => (
-              <Image
-                key={index}
-                src={image}
-                alt={`Sponsor Logos`}
-                width="500"
-                height="200"
-                className={styles.logo}
-              />
-            ))}
-          </Box>
+      </a>
+
+      <Box className={styles.logoSlider}>
+        <Box className={styles.logos}>
+          {images.map((image, index) => (
+            <Image
+              key={index}
+              src={image}
+              alt={`Sponsor Logos`}
+              width="500"
+              height="200"
+              className={styles.logo}
+            />
+          ))}
+        </Box>
+        <Box className={styles.logos}>
+          {images.map((image, index) => (
+            <Image
+              key={index}
+              src={image}
+              alt={`Sponsor Logos`}
+              width="500"
+              height="200"
+              className={styles.logo}
+            />
+          ))}
         </Box>
       </Box>
-    </a>
+    </Box>
+    // </a>
   );
 };
 
