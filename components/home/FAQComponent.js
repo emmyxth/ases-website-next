@@ -26,7 +26,7 @@ export default function FAQ({ question, answer }) {
             id="panel1a-header"
             style={{ color: "white" }}
           >
-            <h1>{question}</h1>
+            <h1 style={{ fontFamily: "Inter" }}>{question}</h1>
           </AccordionSummary>
           <AccordionDetails
             style={{
@@ -35,7 +35,7 @@ export default function FAQ({ question, answer }) {
               borderRadius: "5px",
             }}
           >
-            <h1 style={{ textAlign: "left" }}>{answer}</h1>
+            <h1 style={{ textAlign: "left", fontFamily: "Inter" }}>{answer}</h1>
           </AccordionDetails>
         </Accordion>
       </div>

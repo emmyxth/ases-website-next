@@ -29,7 +29,7 @@ export default function Since1988() {
         >
           <TypingText
             textStyle={{
-              fontFamily: "Space Grotesk",
+              // fontFamily: "Space Grotesk",
               fontSize: "calc(30px + 3vmin)",
               color: "#4470B6",
               marginBottom: "3%",

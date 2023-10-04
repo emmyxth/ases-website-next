@@ -8,7 +8,7 @@ export default function Apply() {
     return(
         <Box sx={{display: "flex", alignItems: "center", flexDirection: "column", maxWidth: "500px", justifyContent:"center", margin: "50px auto"}}>
             <Typography style={{
-              fontFamily: "Space Grotesk",
+              // fontFamily: "Space Grotesk",
               fontSize: "60px",
               paddingBottom: "10px",
             }}>Want to Join?</Typography>

@@ -57,8 +57,8 @@ const Footer = () => {
           <a href="/" style={{ textDecoration: "none", color: "white" }}>
             <Typography
               sx={{
-                fontFamily: "Space Grotesk",
-                fontSize: "calc(25px + 1vmin)",
+                // fontFamily: "Space Grotesk",
+                fontSize: "calc(20px + 1vmin)",
                 fontWeight: 600,
                 marginLeft: 1,
               }}

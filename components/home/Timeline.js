@@ -16,10 +16,7 @@ export default function Timeline() {
           },
         }}
       >
-        <div
-          className="pt-4 justify-start"
-          style={{ fontFamily: "Space Grotesk", textAlign: "left" }}
-        >
+        <div className="pt-4 justify-start" style={{ textAlign: "left" }}>
           <a id="programs">
             <h1
               style={{

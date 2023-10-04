@@ -10,7 +10,7 @@ export default function Launchpad() {
         style={{
           fontSize: "calc(24px + 4vmin)",
           fontWeight: "normal",
-          fontFamily: "Space Grotesk",
+          // // fontFamily: "Space Grotesk",
           color: "black",
           fontWeight: "500",
           maxWidth: "100%",

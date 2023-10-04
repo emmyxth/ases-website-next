@@ -16,12 +16,13 @@ export default function TimelineComponentA({
         <h1
           style={{
             fontSize: "calc(16px + 2vmin)",
-            fontFamily: "Space Grotesk",
           }}
         >
           {header}
         </h1>
-        <p style={{ fontSize: "calc(9px + 1vmin)" }}>{description}</p>
+        <p style={{ fontFamily: "Inter", fontSize: "calc(9px + 1vmin)" }}>
+          {description}
+        </p>
         <Link href={link}>
           <ShortButtonCustomized text="Learn more" />
         </Link>

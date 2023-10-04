@@ -9,7 +9,7 @@ export default function Apply() {
     return(
         <Box sx={{display: "flex", alignItems: "center", flexDirection: "column", maxWidth: "500px", justifyContent:"center", margin: "50px auto"}}>
             <h1 style={{
-              fontFamily: "Space Grotesk",
+              // fontFamily: "Space Grotesk",
               fontSize: "60px",
               paddingBottom: "10px",
               fontWeight: "500",
@@ -17,7 +17,7 @@ export default function Apply() {
             }}>We are a team of</h1>
             <Box style={{width: "500px", height: "80px", backgroundColor:"#B8E4F9", display: "flex", alignContent: "center", justifyContent: "center"}}>
                 <TypingText textStyle={{
-            fontFamily: "Space Grotesk",
+            // fontFamily: "Space Grotesk",
             fontSize: "60px",
             textAlign: "center",
           }}

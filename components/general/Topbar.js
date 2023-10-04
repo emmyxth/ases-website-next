@@ -62,8 +62,8 @@ export default function Topbar() {
               <Link href="/" style={{ textDecoration: "none" }}>
                 <Typography
                   sx={{
-                    fontFamily: "Space Grotesk",
-                    fontSize: 30,
+                    // fontFamily: "Space Grotesk",
+                    fontSize: 40,
                     color: "#101828",
                     fontWeight: "bold",
                   }}

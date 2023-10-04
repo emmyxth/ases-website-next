@@ -22,7 +22,7 @@ export default function Hero() {
             <h1
               style={{
                 fontSize: "calc(16px + 5vmin)",
-                fontFamily: "Space Grotesk",
+                // // fontFamily: "Space Grotesk",
                 fontWeight: "500",
                 lineHeight: "1.3",
               }}

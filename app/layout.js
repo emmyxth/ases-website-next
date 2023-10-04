@@ -4,8 +4,6 @@ import { Inter, Space_Grotesk } from "next/font/google";
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 
 const space_grotesk = Space_Grotesk({
-  weight: ["300", "400", "500", "600"],
-  style: ["normal"],
   subsets: ["latin"],
   variable: "--font-space-grotesk",
 });
@@ -17,8 +15,19 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className={`${inter.variable} ${space_grotesk.variable}`}>
-      <body className={inter.className}>{children}</body>
+    // <html
+    //   lang="en"
+    //   className={`${inter.variable.className} ${space_grotesk.variable.className}`}
+    // >
+    //   <body className={inter.className}>{children}</body>
+    // </html>
+    <html
+      lang="en"
+      className={`${inter.variable.className} ${space_grotesk.variable.className}`}
+    >
+      <body className={`${inter.className} ${space_grotesk.className}`}>
+        {children}
+      </body>
     </html>
   );
 }

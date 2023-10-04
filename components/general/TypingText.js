@@ -69,7 +69,7 @@ const TypingText = ({ words, noDelete, textStyle }) => {
 
   return (
     <Box ref={typingTextRef} textAlign="center">
-      <Typography sx={textStyle}>{displayText}</Typography>
+      <h1 style={textStyle}>{displayText}</h1>
     </Box>
   );
 };

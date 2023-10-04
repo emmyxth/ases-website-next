@@ -25,17 +25,18 @@ const SponsorsBanner = () => {
     // <a  suppressHydrationWarning>
     <Box sx={{ borderTop: "1px solid black", background: "white" }}>
       <a id="sponsors">
-        <Typography
-          sx={{
-            fontFamily: "Space Grotesk",
-            fontSize: 30,
+        <h1
+          style={{
+            // // fontFamily: "Space Grotesk",
+            fontSize: 40,
             fontWeight: 500,
             textAlign: "center",
-            marginTop: 2,
+            marginTop: 12,
+            marginBottom: 12,
           }}
         >
           Sponsored by
-        </Typography>
+        </h1>
       </a>
 
       <Box className={styles.logoSlider}>
