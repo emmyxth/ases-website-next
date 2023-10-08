@@ -20,7 +20,6 @@ const SponsorsBanner = () => {
     "/WIL.png",
     "/ZhenFund.png",
   ];
-
   return (
     // <a  suppressHydrationWarning>
     <Box sx={{ borderTop: "1px solid black", background: "white" }}>

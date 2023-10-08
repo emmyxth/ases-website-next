@@ -11,6 +11,7 @@ export default function BootcampInfo() {
         <p
           className="text-[#667085] desktop:w-3/4 desktop:p-24 mobile:p-6"
           style={{
+            fontFamily: "Inter",
             fontSize: "calc(10px + 1.5vmin)",
             fontWeight: "light",
           }}

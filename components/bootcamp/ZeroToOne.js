@@ -4,7 +4,7 @@ export default function ZeroToOne() {
       <p
         style={{
           fontSize: "calc(12px + 2vmin)",
-          fontFamily: "Space Grotesk",
+          // fontFamily: "Space Grotesk",
           textAlign: "end",
         }}
       >
@@ -16,7 +16,7 @@ export default function ZeroToOne() {
             fontSize: "calc(64px + 10vmin)",
             fontWeight: "bold",
             color: "#A04D4E",
-            fontFamily: "Space Grotesk",
+            // fontFamily: "Space Grotesk",
           }}
         >
           0
@@ -26,7 +26,7 @@ export default function ZeroToOne() {
             fontSize: "calc(18px + 10vmin)",
             fontWeight: "normal",
             color: "#A04D4E",
-            fontFamily: "Space Grotesk",
+            // fontFamily: "Space Grotesk",
           }}
         >
           to
@@ -36,7 +36,7 @@ export default function ZeroToOne() {
             fontSize: "calc(64px + 10vmin)",
             fontWeight: "bold",
             color: "#A04D4E",
-            fontFamily: "Space Grotesk",
+            // fontFamily: "Space Grotesk",
           }}
         >
           1

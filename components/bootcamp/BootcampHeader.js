@@ -20,8 +20,11 @@ export default function BootcampHeader() {
           <h1
             className=" desktop:w-2/5"
             style={{
-              fontSize: "calc(16px + 5vmin)",
-              fontFamily: "Space Grotesk",
+              fontSize: "calc(18px + 5vmin)",
+              fontWeight: "500",
+              lineHeight: "1.3",
+
+              // fontFamily: "Space Grotesk",
             }}
           >
             ASES Bootcamp
@@ -29,7 +32,6 @@ export default function BootcampHeader() {
           <p
             style={{
               fontSize: "calc(12px + 2vmin)",
-              fontFamily: "Space Grotesk",
               fontWeight: "light",
             }}
           >
