@@ -1,8 +1,10 @@
 import React from "react";
 import Button from "@mui/material/Button";
-import { alpha, styled } from "@mui/material/styles";
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
-import Link from "next/link";
+import { Inter } from "next/font/google";
+import { Typography } from "@mui/material";
+
+const inter = Inter({ subsets: ["latin"] });
 
 const LongButtonWArrowCustomized = ({ text, link }) => {
   return (
@@ -16,18 +18,28 @@ const LongButtonWArrowCustomized = ({ text, link }) => {
           borderRadius: 3,
           px: 3,
           py: 2,
-          fontFamily: "Inter",
-          fontSize: "calc(6px + 1.4vmin)",
-          border: "1px solid black",
+          border: "1.5px solid black",
           textTransform: "none",
           "&:hover": {
             backgroundColor: "black",
             color: "white",
           },
         }}
-        endIcon={<ArrowForwardIcon sx={{ fontSize: 40 }} />}
+        endIcon={
+          <ArrowForwardIcon
+            sx={{
+              fontSize: 40,
+            }}
+          />
+        }
       >
-        {text}
+        <Typography
+          sx={{
+            fontSize: "calc(6px + 1.4vmin)",
+          }}
+        >
+          {text}
+        </Typography>
       </Button>
     </>
   );

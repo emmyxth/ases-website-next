@@ -65,15 +65,14 @@ const ProfileCard = ({ name, role, hoveredText, image }) => {
               >
                 {name}
               </h1>
-              <p
-                className="font-inter"
+              <Typography
                 style={{
                   fontSize: "calc(6px + 1vmin)",
                   color: "grey",
                 }}
               >
                 {role}
-              </p>
+              </Typography>
             </CardContent>
           </>
         )}

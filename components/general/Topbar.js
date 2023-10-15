@@ -83,7 +83,7 @@ export default function Topbar() {
                 <Link href="/" style={{ textDecoration: "none" }}>
                   <Typography
                     sx={{
-                      fontFamily: "Inter",
+                      // fontFamily: "Inter",
                       fontSize: 16,
                       color: "#667085",
                       fontWeight: "bold",
@@ -96,7 +96,7 @@ export default function Topbar() {
                 <Link href="/#programs" style={{ textDecoration: "none" }}>
                   <Typography
                     sx={{
-                      fontFamily: "Inter",
+                      // fontFamily: "Inter",
                       fontSize: 16,
                       color: "#667085",
                       fontWeight: "bold",
@@ -111,7 +111,7 @@ export default function Topbar() {
                 <Link href="/#about" style={{ textDecoration: "none" }}>
                   <Typography
                     sx={{
-                      fontFamily: "Inter",
+                      // fontFamily: "Inter",
                       fontSize: 16,
                       color: "#667085",
                       fontWeight: "bold",
@@ -124,7 +124,7 @@ export default function Topbar() {
                 <Link href="/#faq" style={{ textDecoration: "none" }}>
                   <Typography
                     sx={{
-                      fontFamily: "Inter",
+                      // fontFamily: "Inter",
                       fontSize: 16,
                       color: "#667085",
                       fontWeight: "bold",
@@ -137,7 +137,7 @@ export default function Topbar() {
                 <Link href="/team" style={{ textDecoration: "none" }}>
                   <Typography
                     sx={{
-                      fontFamily: "Inter",
+                      // fontFamily: "Inter",
                       fontSize: 16,
                       color: "#667085",
                       fontWeight: "bold",
@@ -150,7 +150,7 @@ export default function Topbar() {
                 <Link href="/#sponsors" style={{ textDecoration: "none" }}>
                   <Typography
                     sx={{
-                      fontFamily: "Inter",
+                      // fontFamily: "Inter",
                       fontSize: 16,
                       color: "#667085",
                       fontWeight: "bold",
@@ -163,7 +163,7 @@ export default function Topbar() {
               </Box>
               <Typography
                 sx={{
-                  fontFamily: "Inter",
+                  // fontFamily: "Inter",
                   fontSize: 16,
                   color: "#667085",
                   fontWeight: "bold",
@@ -203,7 +203,7 @@ export default function Topbar() {
             >
               <Typography
                 sx={{
-                  fontFamily: "Space Grotesk",
+                  // fontFamily: "Space Grotesk",
                   fontSize: 30,
                   color: "#101828",
                   fontWeight: "bold",
@@ -253,7 +253,7 @@ export default function Topbar() {
             ></Image>
             <Typography
               sx={{
-                fontFamily: "Space Grotesk",
+                // fontFamily: "Space Grotesk",
                 fontSize: 30,
                 color: "#101828",
                 fontWeight: "bold",
@@ -270,7 +270,7 @@ export default function Topbar() {
         <Link href="/#home" style={{ textDecoration: "none" }}>
           <ListItem
             sx={{
-              fontFamily: "Inter",
+              // fontFamily: "Inter",
               fontSize: 16,
               color: "#667085",
               fontWeight: "bold",
@@ -283,7 +283,7 @@ export default function Topbar() {
         <Link href="/#programsHome" style={{ textDecoration: "none" }}>
           <ListItem
             sx={{
-              fontFamily: "Inter",
+              // fontFamily: "Inter",
               fontSize: 16,
               color: "#667085",
               fontWeight: "bold",
@@ -296,7 +296,7 @@ export default function Topbar() {
         <Link href="/#about" style={{ textDecoration: "none" }}>
           <ListItem
             sx={{
-              fontFamily: "Inter",
+              // fontFamily: "Inter",
               fontSize: 16,
               color: "#667085",
               fontWeight: "bold",
@@ -309,7 +309,7 @@ export default function Topbar() {
         <Link href="/#faq" style={{ textDecoration: "none" }}>
           <ListItem
             sx={{
-              fontFamily: "Inter",
+              // fontFamily: "Inter",
               fontSize: 16,
               color: "#667085",
               fontWeight: "bold",
@@ -322,7 +322,7 @@ export default function Topbar() {
         <Link href="/team" style={{ textDecoration: "none" }}>
           <ListItem
             sx={{
-              fontFamily: "Inter",
+              // fontFamily: "Inter",
               fontSize: 16,
               color: "#667085",
               fontWeight: "bold",
@@ -335,7 +335,7 @@ export default function Topbar() {
         <Link href="/#sponsors" style={{ textDecoration: "none" }}>
           <ListItem
             sx={{
-              fontFamily: "Inter",
+              // fontFamily: "Inter",
               fontSize: 16,
               color: "#667085",
               fontWeight: "bold",
@@ -347,7 +347,7 @@ export default function Topbar() {
         </Link>
         <ListItem
           sx={{
-            fontFamily: "Inter",
+            // fontFamily: "Inter",
             fontSize: 16,
             color: "#667085",
             fontWeight: "bold",

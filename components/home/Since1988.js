@@ -40,8 +40,9 @@ export default function Since1988() {
           />
           <Typography
             sx={{
-              fontFamily: "Inter",
-              fontSize: "calc(9px + 1.4vmin)",
+              // fontFamily: "Inter",
+              fontSize: "calc(10px + 1.4vmin)",
+              fontWeight: "300",
               color: "#667085",
             }}
           >

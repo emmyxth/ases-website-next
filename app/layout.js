@@ -21,13 +21,8 @@ export default function RootLayout({ children }) {
     // >
     //   <body className={inter.className}>{children}</body>
     // </html>
-    <html
-      lang="en"
-      className={`${inter.variable.className} ${space_grotesk.variable.className}`}
-    >
-      <body className={`${inter.className} ${space_grotesk.className}`}>
-        {children}
-      </body>
+    <html lang="en" className={`${space_grotesk.variable.className}`}>
+      <body className={`${space_grotesk.className}`}>{children}</body>
     </html>
   );
 }
