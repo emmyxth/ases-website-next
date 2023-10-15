@@ -1,4 +1,4 @@
-import Apply from "@/components/team/Apply.jsx";
+import Apply from "@/components/team/Apply.js";
 import Footer from "@/components/general/Footer";
 import Header from "@/components/team/Header.jsx";
 import TeamProfiles from "@/components/team/TeamProfiles.js";

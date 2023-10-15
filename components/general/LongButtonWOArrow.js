@@ -26,6 +26,7 @@ const LongButtonWOArrowCustomized = ({ text, link }) => {
           sx={{
             fontSize: "calc(6px + 1.4vmin)",
             fontWeight: "300",
+            letterSpacing: ".07rem",
           }}
         >
           {text}
