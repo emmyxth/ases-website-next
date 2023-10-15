@@ -2,6 +2,7 @@ import React from "react";
 import ShortButtonCustomized from "../general/ShortButton";
 import Link from "next/link";
 import Image from "next/image";
+import { Typography } from "@mui/material";
 
 export default function TimelineComponentA({
   header,
@@ -20,9 +21,9 @@ export default function TimelineComponentA({
         >
           {header}
         </h1>
-        <p style={{ fontFamily: "Inter", fontSize: "calc(9px + 1vmin)" }}>
+        <Typography sx={{ fontSize: "calc(11px + 1vmin)", fontWeight: "300" }}>
           {description}
-        </p>
+        </Typography>
         <Link href={link}>
           <ShortButtonCustomized text="Learn more" />
         </Link>
@@ -45,16 +46,16 @@ export default function TimelineComponentA({
           />
         </div>
 
-        <h1
-          style={{
+        <Typography
+          sx={{
             fontSize: "calc(8px + 2vmin)",
-            fontWeight: "Medium",
-            fontFamily: "Inter",
+            fontWeight: "300",
+            // fontFamily: "Inter",
             paddingBottom: "1rem",
           }}
         >
           {timeframe}
-        </h1>
+        </Typography>
       </div>
     </div>
   );

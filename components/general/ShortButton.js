@@ -1,5 +1,6 @@
 import React from "react";
 import Button from "@mui/material/Button";
+import { Typography } from "@mui/material";
 
 const ShortButtonCustomized = ({ text, link }) => {
   return (
@@ -21,7 +22,13 @@ const ShortButtonCustomized = ({ text, link }) => {
           },
         }}
       >
-        {text}
+        <Typography
+          sx={{
+            fontSize: "calc(6px + 1.4vmin)",
+          }}
+        >
+          {text}
+        </Typography>
       </Button>
     </>
   );
