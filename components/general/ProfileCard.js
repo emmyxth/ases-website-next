@@ -82,6 +82,7 @@ const ProfileCard = ({ name, role, hoveredText, image }) => {
             <div
               style={{
                 backgroundColor: "black",
+                // opacity: "0.3",
                 height: "100%",
               }}
             >

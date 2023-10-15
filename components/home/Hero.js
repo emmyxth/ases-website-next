@@ -21,7 +21,7 @@ export default function Hero() {
           <a id="home">
             <h1
               style={{
-                fontSize: "calc(16px + 5vmin)",
+                fontSize: "calc(26px + 5vmin)",
                 // // fontFamily: "Space Grotesk",
                 fontWeight: "500",
                 lineHeight: "1.3",
@@ -32,7 +32,10 @@ export default function Hero() {
             </h1>
           </a>
           <LongButtonWArrowCustomized
-            text={"Apply to 2023-2024 ASES Bootcamp today"}
+            text={"Join us today"}
+            link={
+              "https://asesstanford.typeform.com/to/Ua0h4TbG?typeform-source=ases.stanford.edu"
+            }
           />
         </div>
         <div className="flex align-end justify-center pt-5">

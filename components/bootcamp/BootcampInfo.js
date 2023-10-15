@@ -1,4 +1,5 @@
 import ZeroToOne from "./ZeroToOne";
+import { Typography } from "@mui/material";
 import Image from "next/image";
 
 export default function BootcampInfo() {
@@ -10,7 +11,7 @@ export default function BootcampInfo() {
       <div className="relative">
         <p
           className="text-[#667085] desktop:w-3/4 desktop:p-24 mobile:p-6"
-          style={{
+          sx={{
             fontFamily: "Inter",
             fontSize: "calc(10px + 1.5vmin)",
             fontWeight: "light",

@@ -2,11 +2,14 @@ import React from "react";
 import Button from "@mui/material/Button";
 import { alpha, styled } from "@mui/material/styles";
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
+import Link from "next/link";
 
-const LongButtonWArrowCustomized = ({ text }) => {
+const LongButtonWArrowCustomized = ({ text, link }) => {
   return (
     <>
       <Button
+        component="a"
+        href={link}
         sx={{
           color: "black",
           backgroundColor: "white",
