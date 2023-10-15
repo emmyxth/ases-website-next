@@ -24,6 +24,18 @@
     "image": "/Shaurya Headshot.png"
   },
   {
+    "name": "Nicole Garcia",
+    "role": "Co-Financial Officer",
+    "description": "Nicole is a junior studying Computer Science on the HCI track. This past summer, she worked as an investment analyst for an Asia-focused alternative investment company and is interested in entrepreneurship, VC, product design and more. Outside of school, Nicole enjoys traveling around the world, exploring restaurants, and bouldering!",
+    "image": "/Nicole_Garcia.JPG"
+  },
+  {
+    "name": "Scott Hickmann",
+    "role": "Co-Financial Officer",
+    "description": "Scott is a junior studying CS and EE who previously led ASES's engagement team. He is a YC S23 alum, where he developed Mida, a universal language tool. He previously exited an automation startup. In his free time, Scott enjoys gaming, global cuisines, and tech exploration.",
+    "image": "/Scott_Hickmann.jpg"
+  },
+  {
     "name": "Anne Kwok",
     "role": "Alumni Co-Director",
     "description": "Anne is a junior from Hong Kong studying Economics and Poetry. Before joining ASES, she thought accelerators were gas pedals, and a venture was what Bear Grylls did in the wild. After enjoying her experience with Breakthrough, she loved being a channel between students and the Alumni Foundation as Alumni Director last year, helping make ASES’s network (of 900+ members, including summit) stronger around the world! She’s excited about helping expanding ASES’ reach in Asia this year. Anne enjoys fried milk, naps during typhoons, and very short walks. She’s excited to tell you about ASES, so don’t hesitate to reach out at akwok25@stanford.edu!",
@@ -37,13 +49,13 @@
   },
   {
     "name": "Brian Donohugh",
-    "role": "Co-Recruitment Director",
+    "role": "Recruitment & Marketing Co-Director",
     "description": "Brian Donohugh is the Recruitment/Marketing co-director for ASES and a sophomore who intends to major in Materials Science and Engineering. He found an interest in entrepreneurship through his love for the possibilities of innovation and hopes to continue strengthening our community. Outside of ASES he enjoys music, basketball, nature and fashion.",
     "image": "/Brian_Donohugh.JPG"
   },
   {
     "name": "J Yim",
-    "role": "Co-Recruitment Director",
+    "role": "Co-Recruitment & Marketing Co-Director",
     "description": "J is a sophomore currently studying computer science with a passion for all things design. ASES has been an integral part of her undergraduate career, having joined through Bootcamp before working with Launchpad and Summit. In her free time, J enjoys discovering new music to listen to, going thrifting with friends, and watching old films.",
     "image": "/J_Yim.jpeg"
   },
@@ -90,29 +102,35 @@
     "image": "/Elinor_Tandberg.JPG"
   },
   {
+    "name": "Hasan Ahmad",
+    "role": "Chapter Relations Co-Director",
+    "description": "",
+    "image": "/Hasan_Ahmad.JPG"
+  },
+  {
     "name": "Emi Mathew",
     "role": "Bootcamp Co-Director",
     "description": "Emi is a sophomore from Miami studying CS & Biomedical Computation, interested in organ transplant and mental healthcare. In her free time, she enjoys lifting, playing Ultimate Frisbee, dancing on the Bhangra team, and watching Gilmore Girls. She's Bootcamp Co-Director with Saanvi and is excited to meet the next bootcamp cohort!",
     "image": "/Emi_Mathew.JPG"
   },
   {
-    "name": "Hasan Ahmad",
-    "role": "Not Available",
+    "name": "Saanvi Chawla",
+    "role": "Bootcamp Co-Director",
     "description": "",
-    "image": "/Hasan_Ahmad.JPG"
-  },
-  {
-    "name": "Hristo Todorov",
-    "role": "Not Available",
-    "description": "",
-    "image": "/Hristo_Todorov.jpg"
+    "image": "/Saanvi_Chawla.JPG"
   },
   {
     "name": "Annie Villalta",
-    "role": "Not Available",
+    "role": "Community Co-Director",
     "description": "",
     "image": "/Annie_Villalta.jpeg"
   },
+  {
+    "name": "Yasmin Kotb",
+    "role": "Community Co-Director",
+    "description": "Yasmin is an incoming Junior at Stanford pursuing a B.S. in Biomedical Computations. She is excited to work with her co-Director, Annie, to host fun, interactive, and engaging events to get the ASES community together! She looks forward to the future club dinners, boba trips, and team building events while getting to know everyone in this super unique and cool space.",
+    "image": "/Yasmin_Kotb.PNG"
+  }
   {
     "name": "Jenny Wei",
     "role": "Launchpad Co-Director",
@@ -131,18 +149,11 @@
     "description": "Kavita is a second-year math major and Summit co-director. She interned at the Chicago Mercantile Exchange this summer and is passionate about quantitative finance. On campus, she also serves as the Engagement Officer at CYC and SUMO.",
     "image": "/Kavita_Kar.JPG"
   },
-
   {
-    "name": "Nicole Garcia",
-    "role": "Co-Financial Officer",
-    "description": "Nicole is a junior studying Computer Science on the HCI track. This past summer, she worked as an investment analyst for an Asia-focused alternative investment company and is interested in entrepreneurship, VC, product design and more. Outside of school, Nicole enjoys traveling around the world, exploring restaurants, and bouldering!",
-    "image": "/Nicole_Garcia.JPG"
-  },
-  {
-    "name": "Scott Hickmann",
-    "role": "Co-Financial Officer",
-    "description": "Scott is a junior studying CS and EE who previously led ASES's engagement team. He is a YC S23 alum, where he developed Mida, a universal language tool. He previously exited an automation startup. In his free time, Scott enjoys gaming, global cuisines, and tech exploration.",
-    "image": "/Scott_Hickmann.jpg"
+    "name": "Hristo Todorov",
+    "role": "Summit Co-Director",
+    "description": "",
+    "image": "/Hristo_Todorov.jpg"
   },
   {
     "name": "Odin Farkas",
@@ -156,17 +167,5 @@
     "description": "Sherry will be one of your Engagement co-directors. She’s a sophomore from NC studying CS. She enjoys playing the guitar, going on logs, and watching the sunrise. She’s looking forward to a lovely year in ASES!",
     "image": "/Sherry_Liu.JPG"
   },
-  {
-    "name": "Saanvi Chawla",
-    "role": "Not Available",
-    "description": "",
-    "image": "/Saanvi_Chawla.JPG"
-  },
 
-  {
-    "name": "Yasmin Kotb",
-    "role": "Community Co-Director",
-    "description": "Yasmin is an incoming Junior at Stanford pursuing a B.S. in Biomedical Computations. She is excited to work with her co-Director, Annie, to host fun, interactive, and engaging events to get the ASES community together! She looks forward to the future club dinners, boba trips, and team building events while getting to know everyone in this super unique and cool space.",
-    "image": "/Yasmin_Kotb.PNG"
-  }
 ]
