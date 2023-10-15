@@ -9,12 +9,11 @@ export default function BootcampInfo() {
       style={{ borderBottom: "1px solid black" }}
     >
       <div className="relative">
-        <p
-          className="text-[#667085] desktop:w-3/4 desktop:p-24 mobile:p-6"
+        <Typography
+          className="text-[#667085] desktop:p-24 mobile:p-10"
           sx={{
-            fontFamily: "Inter",
             fontSize: "calc(10px + 1.5vmin)",
-            fontWeight: "light",
+            fontWeight: "300",
           }}
         >
           ASES Bootcamp is a 12-week design-thinking intensive for Stanford
@@ -25,7 +24,7 @@ export default function BootcampInfo() {
           final pitch presentation, in which teams of students pitch their
           startup ideas to a panel of Silicon Valley investors. This is your
           chance to join Stanford’s closest-knit startup community!
-        </p>
+        </Typography>
         <img src="/bootcamp-info.png" className="desktop:w-2/3" />
       </div>
       <ZeroToOne />

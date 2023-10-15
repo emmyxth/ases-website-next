@@ -4,7 +4,7 @@ export default function ZeroToOne() {
       <p
         style={{
           fontSize: "calc(12px + 2vmin)",
-          // fontFamily: "Space Grotesk",
+          color: "#667085",
           textAlign: "end",
         }}
       >
