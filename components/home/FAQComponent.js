@@ -17,7 +17,11 @@ export default function FAQ({ question, answer }) {
     <a id="faq">
       <div>
         <Accordion
-          style={{ backgroundColor: "black", borderRadius: "5px" }}
+          style={{
+            backgroundColor: "black",
+            borderRadius: "5px",
+            boxShadow: "none",
+          }}
           className="max-w-840 w-full m:w-3/4 s:w-1/2"
         >
           <AccordionSummary
@@ -26,7 +30,11 @@ export default function FAQ({ question, answer }) {
             id="panel1a-header"
             style={{ color: "white" }}
           >
-            <h1 style={{ fontFamily: "Inter" }}>{question}</h1>
+            <Typography
+              sx={{ fontSize: "calc(9px + 1vmin)", fontWeight: "300" }}
+            >
+              {question}
+            </Typography>
           </AccordionSummary>
           <AccordionDetails
             style={{
@@ -35,7 +43,11 @@ export default function FAQ({ question, answer }) {
               borderRadius: "5px",
             }}
           >
-            <h1 style={{ textAlign: "left", fontFamily: "Inter" }}>{answer}</h1>
+            <Typography
+              sx={{ fontSize: "calc(9px + 1vmin)", fontWeight: "300" }}
+            >
+              {answer}
+            </Typography>
           </AccordionDetails>
         </Accordion>
       </div>
