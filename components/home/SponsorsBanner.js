@@ -30,15 +30,15 @@ const SponsorsBanner = () => {
             fontSize: 40,
             fontWeight: 500,
             textAlign: "center",
-            marginTop: 12,
-            marginBottom: 12,
+            marginTop: 25,
+            marginBottom: 25,
           }}
         >
           Sponsored by
         </h1>
       </a>
 
-      <Box className={styles.logoSlider}>
+      <Box className={styles.logoSlider} sx={{ marginBottom: "50px" }}>
         <Box className={styles.logos}>
           {images.map((image, index) => (
             <Image

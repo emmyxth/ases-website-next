@@ -83,10 +83,13 @@ const ProfileCard = ({ name, role, hoveredText, image }) => {
                 backgroundColor: "black",
                 // opacity: "0.3",
                 height: "100%",
+                overflow: "auto",
+                scrollbarWidth: "none",
+                msOverflowStyle: "none",
               }}
             >
               <CardContent>
-                <Typography variant="body2" color="white">
+                <Typography variant="body1" color="white">
                   {hoveredText}
                 </Typography>
               </CardContent>
