@@ -34,6 +34,7 @@ export default function Since1988() {
               color: "#4470B6",
               marginBottom: "3%",
               textAlign: "left",
+              fontWeight: "400",
             }}
             words={["Since 1988"]}
             noDelete={true}

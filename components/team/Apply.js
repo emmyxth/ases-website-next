@@ -23,7 +23,7 @@ export default function Apply() {
       >
         Want to Join?
       </h1>
-      <LongButtonWOArrow text="Sign Up!" />
+      <LongButtonWOArrow text="Sign Up!" link="" />
     </Box>
   );
 }
