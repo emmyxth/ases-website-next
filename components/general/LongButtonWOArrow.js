@@ -1,28 +1,35 @@
 import React from "react";
 import Button from "@mui/material/Button";
+import { Typography } from "@mui/material";
 
-const LongButtonWOArrowCustomized = ({ text }) => {
+const LongButtonWOArrowCustomized = ({ text, link }) => {
   return (
     <>
       <Button
+        component="a"
+        href={link}
         sx={{
-          color: "black",
+          color: "white",
           backgroundColor: "black",
           borderRadius: 3,
-          px: "calc(45px + 4vmin)",
+          px: 3,
           py: 2,
-          fontFamily: "Inter",
-          border: "1.2px solid black",
-          fontSize: "calc(7px + 1.6vmin)",
+          border: "1.5px solid black",
           textTransform: "none",
           "&:hover": {
-            backgroundColor: "black",
-            color: "white",
-            border: "1px solid black",
+            backgroundColor: "white",
+            color: "black",
           },
         }}
       >
-        {text}
+        <Typography
+          sx={{
+            fontSize: "calc(6px + 1.4vmin)",
+            fontWeight: "300",
+          }}
+        >
+          {text}
+        </Typography>
       </Button>
     </>
   );

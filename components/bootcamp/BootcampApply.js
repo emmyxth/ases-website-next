@@ -6,6 +6,7 @@ export default function BootcampApply() {
         style={{
           // fontFamily: "Space Grotesk",
           fontSize: "calc(25px + 2vmin)",
+          fontWeight: "500",
         }}
       >
         Ready to apply?

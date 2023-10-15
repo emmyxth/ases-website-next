@@ -13,16 +13,16 @@ const LongButtonWArrowCustomized = ({ text, link }) => {
         component="a"
         href={link}
         sx={{
-          color: "black",
-          backgroundColor: "white",
+          color: "white",
+          backgroundColor: "black",
           borderRadius: 3,
           px: 3,
           py: 2,
           border: "1.5px solid black",
           textTransform: "none",
           "&:hover": {
-            backgroundColor: "black",
-            color: "white",
+            backgroundColor: "white",
+            color: "black",
           },
         }}
         endIcon={
