@@ -29,7 +29,7 @@ export default function Hero() {
               className="desktop:w-2/5"
             >
               Stanford's premier{" "}
-              <span style={{ color: "#934735" }}>entrepreneurship</span> society
+              <span style={{ color: "#4470B6" }}>entrepreneurship</span> society
             </h1>
           </a>
           <LongButtonWArrowCustomized
