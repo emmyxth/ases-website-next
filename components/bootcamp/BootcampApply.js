@@ -11,7 +11,10 @@ export default function BootcampApply() {
       >
         Ready to apply?
       </h1>
-      <LongButtonWOArrowCustomized text={"Let's go"} />
+      <LongButtonWOArrowCustomized
+        text={"Let's go"}
+        link={"https://asesstanford.typeform.com/to/Ua0h4TbG"}
+      />
     </div>
   );
 }

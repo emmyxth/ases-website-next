@@ -184,12 +184,14 @@ export default function Topbar() {
               background: "white",
             }}
           >
-            <Image
-              src="/logo-normal.png"
-              alt={"ases logo"}
-              width="33"
-              height="33"
-            ></Image>
+            <Link href="/">
+              <Image
+                src="/logo-normal.png"
+                alt={"ases logo"}
+                width="33"
+                height="33"
+              ></Image>
+            </Link>
             <Box
               sx={{
                 display: "flex",
@@ -201,16 +203,18 @@ export default function Topbar() {
                 whiteSpace: "nowrap",
               }}
             >
-              <Typography
-                sx={{
-                  // fontFamily: "Space Grotesk",
-                  fontSize: 30,
-                  color: "#101828",
-                  fontWeight: "bold",
-                }}
-              >
-                ASES
-              </Typography>
+              <Link href="/" style={{ textDecoration: "none" }}>
+                <Typography
+                  sx={{
+                    // fontFamily: "Space Grotesk",
+                    fontSize: 30,
+                    color: "#101828",
+                    fontWeight: "bold",
+                  }}
+                >
+                  ASES
+                </Typography>
+              </Link>
               <Box>
                 <IconButton edge="start" onClick={handleDrawerOpen}>
                   <MenuIcon sx={{ color: "#667085" }} />

@@ -23,7 +23,10 @@ export default function Apply() {
       >
         Want to Join?
       </h1>
-      <LongButtonWOArrow text="Sign Up!" link="" />
+      <LongButtonWOArrow
+        text="Sign Up!"
+        link="https://asesstanford.typeform.com/to/Ua0h4TbG?typeform-source=ases.stanford.edu"
+      />
     </Box>
   );
 }

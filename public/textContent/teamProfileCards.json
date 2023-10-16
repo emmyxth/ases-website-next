@@ -130,7 +130,7 @@
     "role": "Community Co-Director",
     "description": "Yasmin is an incoming Junior at Stanford pursuing a B.S. in Biomedical Computations. She is excited to work with her co-Director, Annie, to host fun, interactive, and engaging events to get the ASES community together! She looks forward to the future club dinners, boba trips, and team building events while getting to know everyone in this super unique and cool space.",
     "image": "/Yasmin_Kotb.PNG"
-  }
+  },
   {
     "name": "Jenny Wei",
     "role": "Launchpad Co-Director",
@@ -166,6 +166,5 @@
     "role": "Engagement Co-Director",
     "description": "Sherry will be one of your Engagement co-directors. She’s a sophomore from NC studying CS. She enjoys playing the guitar, going on logs, and watching the sunrise. She’s looking forward to a lovely year in ASES!",
     "image": "/Sherry_Liu.JPG"
-  },
-
+  }
 ]
