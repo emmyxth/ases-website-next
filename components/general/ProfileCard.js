@@ -19,35 +19,23 @@ const ProfileCard = ({ name, role, hoveredText, image }) => {
           backgroundColor: "F8F9FC",
           border: "1px solid black",
           borderRadius: 3,
+          "&:hover": {
+            backgroundColor: "black",
+          },
         }}
-        onMouseEnter={() => {
-          if (hoveredText !== "") {
-            setIsHovered(true);
-          }
-        }}
+        onMouseEnter={() => setIsHovered(true)}
         onMouseLeave={() => setIsHovered(false)}
       >
         {!isHovered && (
           <>
-            <div
-              style={{
+            <CardMedia
+              sx={{
                 height: "calc(250px + 2vmin)",
-                position: "relative",
+                borderBottom: "1px solid black",
               }}
-            >
-              <Image
-                className="w-full h-auto"
-                style={{
-                  borderBottom: "1px solid black",
-                  objectFit: "cover",
-                }}
-                src={image}
-                fill={true}
-                title="Profile Image"
-                sizes="268px"
-                priority={true}
-              />
-            </div>
+              image={image}
+              title="Profile Image"
+            />
             <CardContent
               sx={{
                 display: "flex",
@@ -57,18 +45,21 @@ const ProfileCard = ({ name, role, hoveredText, image }) => {
                 padding: "0.5rem",
               }}
             >
-              <h1
-                className="font-inter"
-                style={{
+              <Typography
+                color="text.primary"
+                align="center"
+                sx={{
                   fontSize: "calc(10px + 1vmin)",
                 }}
               >
                 {name}
-              </h1>
+              </Typography>
               <Typography
-                style={{
-                  fontSize: "calc(6px + 1vmin)",
-                  color: "grey",
+                variant="body2"
+                color="text.secondary"
+                align="center"
+                sx={{
+                  fontSize: "calc(8px + 1vmin)",
                 }}
               >
                 {role}
@@ -78,22 +69,11 @@ const ProfileCard = ({ name, role, hoveredText, image }) => {
         )}
         {isHovered && (
           <>
-            <div
-              style={{
-                backgroundColor: "black",
-                // opacity: "0.3",
-                height: "100%",
-                overflow: "auto",
-                scrollbarWidth: "none",
-                msOverflowStyle: "none",
-              }}
-            >
-              <CardContent>
-                <Typography variant="body1" color="white">
-                  {hoveredText}
-                </Typography>
-              </CardContent>
-            </div>
+            <CardContent>
+              <Typography variant="body2" color="white">
+                {hoveredText}
+              </Typography>
+            </CardContent>
           </>
         )}
       </Card>

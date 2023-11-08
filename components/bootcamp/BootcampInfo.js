@@ -25,7 +25,7 @@ export default function BootcampInfo() {
           startup ideas to a panel of Silicon Valley investors. This is your
           chance to join Stanford’s closest-knit startup community!
         </Typography>
-        <img src="/bootcamp-info.png" className="desktop:w-2/3" />
+        <img src="/bootcamp-info.jpg" className="desktop:w-2/3" />
       </div>
       <ZeroToOne />
     </div>

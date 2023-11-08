@@ -1,11 +1,11 @@
 "use client";
 import React from "react";
-// import Pear from "@/public/Pear.png";
-// import Renn from "@/public/Renn.png";
-// import Softbank from "@/public/Softbank.png";
-// import Think from "@/public/Think.png";
-// import WIL from "@/public/WIL.png";
-// import ZhenFund from "@/public/ZhenFund.png";
+// import Pear from "@/public/Pear.jpg";
+// import Renn from "@/public/Renn.jpg";
+// import Softbank from "@/public/Softbank.jpg";
+// import Think from "@/public/Think.jpg";
+// import WIL from "@/public/WIL.jpg";
+// import ZhenFund from "@/public/ZhenFund.jpg";
 import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
 import styles from "./SponsorsBanner.module.css";
@@ -13,12 +13,12 @@ import Image from "next/image";
 
 const SponsorsBanner = () => {
   const images = [
-    "/Pear.png",
-    "/Renn.png",
-    "/Softbank.png",
-    "/Think.png",
-    "/WIL.png",
-    "/ZhenFund.png",
+    "/Pear.jpg",
+    "/Renn.jpg",
+    "/Softbank.jpg",
+    "/Think.jpg",
+    "/WIL.jpg",
+    "/ZhenFund.jpg",
   ];
   return (
     // <a  suppressHydrationWarning>
@@ -41,7 +41,7 @@ const SponsorsBanner = () => {
       <Box className={styles.logoSlider} sx={{ marginBottom: "50px" }}>
         <Box className={styles.logos}>
           {images.map((image, index) => (
-            <Image
+            <img
               key={index}
               src={image}
               alt={`Sponsor Logos`}
@@ -53,7 +53,7 @@ const SponsorsBanner = () => {
         </Box>
         <Box className={styles.logos}>
           {images.map((image, index) => (
-            <Image
+            <img
               key={index}
               src={image}
               alt={`Sponsor Logos`}

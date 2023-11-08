@@ -11,7 +11,7 @@ export default function Timeline() {
         style={{
           padding: "4rem",
           backgroundColor: "white",
-          "@media (max-width: 800px)": {
+          "@media (maxWidth: 800px)": {
             padding: "2rem",
           },
         }}
