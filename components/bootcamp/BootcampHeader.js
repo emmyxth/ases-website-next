@@ -40,7 +40,7 @@ export default function BootcampHeader() {
           <ShortButton text={"Apply today"} />
         </div>
         <div className="flex items-center justify-center desktop:pt-5 mobile:pt-2 mobile:pb-8">
-          <img src="/bootcamp-header.png" className="align-self-center" />
+          <img src="/bootcamp-header.jpg" className="align-self-center" />
         </div>
       </div>
     </div>

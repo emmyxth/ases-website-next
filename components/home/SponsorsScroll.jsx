@@ -3,7 +3,7 @@ import { Box } from '@mui/material';
 import { motion, useViewportScroll, useTransform } from 'framer-motion';
 
 function SponsorsScroll() {
-  const images = ['/media/haley-tran.png', "/media/charles_tsao.png", '/media/alex_lin.png']; // replace with your images
+  const images = ['/media/haley-tran.jpg', "/media/charles_tsao.jpg", '/media/alex_lin.jpg']; // replace with your images
   const scrollRef = useRef();
 
   const { scrollYProgress } = useViewportScroll();
