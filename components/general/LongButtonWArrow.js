@@ -35,7 +35,7 @@ const LongButtonWArrowCustomized = ({ text, link }) => {
       >
         <Typography
           sx={{
-            fontSize: "calc(6px + 1.4vmin)",
+            fontSize: "calc(9px + 1.2vmin)",
             fontWeight: "300",
             letterSpacing: ".07rem",
           }}
