@@ -62,7 +62,7 @@ export default function Testimonials() {
             lineHeight: "2.5rem",
             marginBottom: "4%",
             textAlign: "center",
-            "@media (max-width: 1024px)": {
+            "@media (maxWidth: 1024px)": {
               marginBottom: "calc(1% + 2vmin)",
               padding: "calc(1rem + 1vmin)",
             },

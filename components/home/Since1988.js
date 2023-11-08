@@ -64,11 +64,10 @@ export default function Since1988() {
             position: "relative",
           }}
         >
-          <Image
-            src="/Since1988Image.png"
+          <img
+            src="/Since1988Image.jpg"
             alt={"Since1988Image"}
-            fill={true}
-            style={{ objectFit: "cover" }}
+            style={{ height: "100%", width: "100%", objectFit: "cover" }}
           />
         </div>
       </Box>
