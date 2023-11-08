@@ -21,12 +21,12 @@ export default function Hero() {
           <a id="home">
             <h1
               style={{
-                fontSize: "calc(30px + 5vmin)",
+                // fontSize: "calc(30px + 3vmin)",
                 // // fontFamily: "Space Grotesk",
                 fontWeight: "500",
                 lineHeight: "1.3",
               }}
-              className="desktop:w-2/5"
+              className="desktop:w-2/5 mobile:text-3xl tablet:text-6xl desktop:text-7xl"
             >
               Stanford's premier{" "}
               <span style={{ color: "#4470B6" }}>entrepreneurship</span> society

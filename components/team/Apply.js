@@ -17,7 +17,7 @@ export default function Apply() {
     >
       <h1
         style={{
-          fontSize: "60px",
+          fontSize: "calc(16px + 5vmin)",
           paddingBottom: "30px",
         }}
       >
