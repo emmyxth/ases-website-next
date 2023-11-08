@@ -41,7 +41,7 @@ export default function Topbar() {
           <Toolbar sx={{ background: "white" }}>
             <Link href="/">
               <Image
-                src="/logo-normal.png"
+                src="/logo-normal.jpg"
                 alt={"ases logo"}
                 width="33"
                 height="33"
