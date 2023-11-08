@@ -35,7 +35,7 @@ const ProfileCard = ({ name, role, hoveredText, image }) => {
                 position: "relative",
               }}
             >
-              <Image
+              <img
                 className="w-full h-auto"
                 style={{
                   borderBottom: "1px solid black",

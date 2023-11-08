@@ -36,7 +36,7 @@ export default function TimelineComponentA({
             position: "relative",
           }}
         >
-          <Image
+          <img
             src={image}
             alt={header}
             fill={true}

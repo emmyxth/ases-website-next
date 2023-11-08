@@ -46,12 +46,12 @@ const Footer = () => {
           }}
         >
           <a href="/">
-            <Image
+            <img
               alt={"white ASES logo"}
               src="/logo-white.png"
               width="33"
               height="33"
-            ></Image>
+            ></img>
           </a>
 
           <a href="/" style={{ textDecoration: "none", color: "white" }}>

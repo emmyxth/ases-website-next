@@ -41,7 +41,7 @@ const SponsorsBanner = () => {
       <Box className={styles.logoSlider} sx={{ marginBottom: "50px" }}>
         <Box className={styles.logos}>
           {images.map((image, index) => (
-            <Image
+            <img
               key={index}
               src={image}
               alt={`Sponsor Logos`}
@@ -53,7 +53,7 @@ const SponsorsBanner = () => {
         </Box>
         <Box className={styles.logos}>
           {images.map((image, index) => (
-            <Image
+            <img
               key={index}
               src={image}
               alt={`Sponsor Logos`}

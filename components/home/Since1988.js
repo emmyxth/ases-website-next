@@ -64,7 +64,7 @@ export default function Since1988() {
             position: "relative",
           }}
         >
-          <Image
+          <img
             src="/Since1988Image.png"
             alt={"Since1988Image"}
             fill={true}

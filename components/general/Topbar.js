@@ -40,12 +40,12 @@ export default function Topbar() {
         <AppBar position="static" elevation={0}>
           <Toolbar sx={{ background: "white" }}>
             <Link href="/">
-              <Image
+              <img
                 src="/logo-normal.png"
                 alt={"ases logo"}
                 width="33"
                 height="33"
-              ></Image>
+              ></img>
             </Link>
 
             <Box
@@ -185,12 +185,12 @@ export default function Topbar() {
             }}
           >
             <Link href="/">
-              <Image
+              <img
                 src="/logo-normal.png"
                 alt={"ases logo"}
                 width="33"
                 height="33"
-              ></Image>
+              ></img>
             </Link>
             <Box
               sx={{
@@ -249,12 +249,12 @@ export default function Topbar() {
               marginRight: 10,
             }}
           >
-            <Image
+            <img
               src="/logo-normal.png"
               alt={"ases logo"}
               width="33"
               height="33"
-            ></Image>
+            ></img>
             <Typography
               sx={{
                 // fontFamily: "Space Grotesk",
