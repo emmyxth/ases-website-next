@@ -26,7 +26,7 @@ export default function Hero() {
                 fontWeight: "500",
                 lineHeight: "1.3",
               }}
-              className="desktop:w-2/5 mobile:text-3xl tablet:text-5xl desktop:text-6xl"
+              className="desktop:w-2/5 mobile:text-3xl tablet:text-6xl desktop:text-7xl"
             >
               Stanford's premier{" "}
               <span style={{ color: "#4470B6" }}>entrepreneurship</span> society
