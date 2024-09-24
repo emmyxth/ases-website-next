@@ -25,7 +25,7 @@ export default function TimelineComponentA({
           {description}
         </Typography>
         <Link href={link}>
-          <ShortButtonCustomized text="Learn more" />
+          <ShortButtonCustomized link={link} text="Learn more" />
         </Link>
       </div>
       <div className="flex flex-1 flex-col-reverse desktop:items-end mobile:items-center justify-center">

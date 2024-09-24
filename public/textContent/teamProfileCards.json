@@ -1,170 +1,158 @@
 [
   {
-    "name": "Joe Tey",
+    "name": "J Yim",
     "role": "Co-President",
-    "description": "Joe is a junior from Melbourne, Australia, studying CS & Education. He's a big builder at heart, and is always working on a side project of some sort. Intrigued by tools of thought + a strong passion for education, Joe is super excited to revitalize the scrappy, entrepreneurial spirit of building & creating at Stanford: an infectious energy that is so core to Stanford's DNA. Shoot him an email at joetey@stanford.edu and he'll always be down to chat and/or build with you on any ideas!",
-    "image": "/Joe_Tey.jpg"
-  },
-  {
-    "name": "Charlie Nicks",
-    "role": "Co-President",
-    "description": "Charlotte is a junior from the LA area majoring in Mathematics. She is interested in leveraging her background in math to make informed decisions in complex systems under uncertainty, and she is passionate about work that necessitates a combination of qualitative, intuitive, and quantitative thinking. She hopes to end up working in social impact entrepreneurship and is particularly interested in the fields of biotech and cryptography. In her free time, she enjoys baking, gardening, and sewing!",
-    "image": "/Charlie_Nicks.jpg"
-  },
-  {
-    "name": "Jaston McClure",
-    "role": "Co-Vice President",
-    "description": "Jaston is a junior majoring in biochemistry with a minor in management science. After joining ASES through Bootcamp, he both organized and participated in Breakthrough, then led the revitalized Summit program. Jaston believes that science and entrepreneurship are natural partners and aspires to one day lead a biotechnology startup or invest in deep tech. When he’s not trying to decipher microscope slides in the lab or leading the ASES team, Jaston enjoys digging for 500-million-year-old fossils, running, and exploring new cities. He is always happy to talk, so feel free to reach out! ",
-    "image": "/Jaston_McClure.JPG"
-  },
-  {
-    "name": "Shaurya Sinha",
-    "role": "Co-Vice President",
-    "description": "Shaurya is a rising Junior from New Delhi, India. He’s studying Symbolic Systems and Education. Shaurya’s a visual storyteller at heart, working at the intersection of entrepreneurship, education, and social psychology to create and share his ideas with the world. Outside of the classroom, Shaurya loves filmmaking and has a YouTube channel where he captures his life, hoping to spread a little joy along the way.",
-    "image": "/Shaurya Headshot.jpg"
-  },
-  {
-    "name": "Nicole Garcia",
-    "role": "Co-Financial Officer",
-    "description": "Nicole is a junior studying Computer Science on the HCI track. This past summer, she worked as an investment analyst for an Asia-focused alternative investment company and is interested in entrepreneurship, VC, product design and more. Outside of school, Nicole enjoys traveling around the world, exploring restaurants, and bouldering!",
-    "image": "/Nicole_Garcia.JPG"
-  },
-  {
-    "name": "Scott Hickmann",
-    "role": "Co-Financial Officer",
-    "description": "Scott is a junior studying CS and EE who previously led ASES's engagement team. He is a YC S23 alum, where he developed Mida, a universal language tool. He previously exited an automation startup. In his free time, Scott enjoys gaming, global cuisines, and tech exploration.",
-    "image": "/Scott_Hickmann.jpg"
-  },
-  {
-    "name": "Anne Kwok",
-    "role": "Alumni Co-Director",
-    "description": "Anne is a junior from Hong Kong studying Economics and Poetry. Before joining ASES, she thought accelerators were gas pedals, and a venture was what Bear Grylls did in the wild. After enjoying her experience with Breakthrough, she loved being a channel between students and the Alumni Foundation as Alumni Director last year, helping make ASES’s network (of 900+ members, including summit) stronger around the world! She’s excited about helping expanding ASES’ reach in Asia this year. Anne enjoys fried milk, naps during typhoons, and very short walks. She’s excited to tell you about ASES, so don’t hesitate to reach out at akwok25@stanford.edu!",
-    "image": "/Anne_Kwok.jpg"
-  },
-  {
-    "name": "Daniel Guo",
-    "role": "Alumni Co-Director",
-    "description": "Daniel is a junior from Vancouver, Canada studying CS and Biology. Daniel is passionate about healthcare, biotechnology, and entrepreneurship. Having joined ASES through Bootcamp, Daniel is excited to continue contributing to the ASES community as Alumni Co-director. In his free time, Daniel likes to travel, read, and spend time with friends.",
-    "image": "/Daniel_Guo.jpg"
+    "description": "J is a junior from Seoul & NYC majoring in CS and TAPS. She is currently working at Dalus AI, a robotics simulation software company, but more broadly, she is interested in the intersection between film/media and visual computing technologies. In her free time, she enjoys playing the bass, going thrifting, and learning new languages!",
+    "image": "/people/j.jpeg"
   },
   {
     "name": "Brian Donohugh",
-    "role": "Recruitment & Marketing Co-Director",
-    "description": "Brian Donohugh is the Recruitment/Marketing co-director for ASES and a sophomore who intends to major in Materials Science and Engineering. He found an interest in entrepreneurship through his love for the possibilities of innovation and hopes to continue strengthening our community. Outside of ASES he enjoys music, basketball, nature and fashion.",
-    "image": "/Brian_Donohugh.JPG"
+    "role": "Co-President",
+    "description": "Brian is a Junior from Hong Kong majoring in Materials Science with a minor in Earth Systems. He enjoys research in batteries and is deeply invested in energy solutions as the key to combating climate change and innovative technologies as a whole. In his free time, he enjoys basketball, music and exploring nature.",
+    "image": "/people/brian.jpeg"
   },
   {
-    "name": "J Yim",
-    "role": "Co-Recruitment & Marketing Co-Director",
-    "description": "J is a sophomore currently studying computer science with a passion for all things design. ASES has been an integral part of her undergraduate career, having joined through Bootcamp before working with Launchpad and Summit. In her free time, J enjoys discovering new music to listen to, going thrifting with friends, and watching old films.",
-    "image": "/J_Yim.jpg"
+    "name": "Vivian Nguyen",
+    "role": "Vice President",
+    "description": "Vivian is a sophomore studying medicinal chemistry and biology on the pre-med track. She is passionate about driving progress in biotechnology and was named one of the top \"Six Teens Making the World a Better Place\" by Forbes Magazine. Vivian is involved in gender equity advocacy at the White House and enjoys exploring the city in her free time.",
+    "image": "/people/vivian.jpeg"
   },
   {
-    "name": "Emmy Thamakaison",
-    "role": "Tech Co-Director",
-    "description": "Emmy is the Tech Co-Director and a Junior studying Computer Science. Currently a PM at Marriage Pact, she is passionate about building products to solve problems. As a researcher at the Stanford Artificial Intelligence Lab, she is developing a virtual assistant for Electronic Health Records. She is also a PM at Develop for Good, wherein she led KPI dashboard development enabling NeighborShare to serve 7000+ Americans. You can probably catch her at a local coffee shop or spending time outdoors!",
-    "image": "/Emmy_Thamakaison.jpg"
-  },
-  {
-    "name": "Alex Paek",
-    "role": "Tech Co-Director",
-    "description": "Alex is a senior studying Computer Science. He has been an active member of ASES since 2018, which involved a 2-year hiatus serving in the South Korean army. Alex worked at Meta and Citadel as a SWE, and his hobbies include playing basketball, volleyball, and exploring startups.",
-    "image": "/Alex_Paek.JPG"
-  },
-  {
-    "name": "Christina Ba",
-    "role": "VC3 Co-Director",
-    "description": "Christina is a sophomore from the Chicago area studying Computer Science and Economics. She's been involved in ASES since Bootcamp, and has since helped organize Breakthrough and VC3. She is interested in health tech, human-centered design, and venture capital. Outside of ASES, she enjoys painting, thrifting, and anything with matcha.",
-    "image": "/Christina_Ba.JPG"
-  },
-  {
-    "name": "Emily Zhang",
-    "role": "VC3 Co-Director",
-    "description": "Emily Zhang is a sophomore studying CS and Art Practice and a Co-Director of VC3. She’s passionate about harnessing AI entrepreneurship for social good and the intersection of tech and culture. Emily loves building, painting, brunching, and meeting new people, so feel free to reach out!",
-    "image": "/Emily_Zhang.JPG"
-  },
-  {
-    "name": "Dhruv Naik",
-    "role": "Breakthrough Co-Director",
-    "description": "Dhruv is sophomore studying Economics and Computer Science and was a member of ASES Bootcamp last Fall, and joined the organizing team for Breakthrough in the Winter. He now serves on the ASES Leadership team as a co-director for Breakthrough ‘23-‘24 alongside Natalie Abboud. Outside of ASES, he is a manager for the mens’ basketball team and is a consultant for Stanford Marketing Group.",
-    "image": "/Dhruv_Naik.jpg"
-  },
-  {
-    "name": "Natalie Abboud",
-    "role": "Breakthrough Co-Director",
-    "description": "Natalie is a sophomore studying economics and international relations She’s currently the co - director of breakthrough and participated in bootcamp last year. Outside of ASES she’s involved with Stanford Women in Business and Stanford Speakers Bureau and enjoys running and trying new food in her free time.",
-    "image": "/Natalie_Abboud.jpg"
-  },
-  {
-    "name": "Elinor Tandberg",
-    "role": "Chapter Relations Co-Director",
-    "description": "Elinor is a sophomore international student from Sweden majoring in Data Science (BS) on the biology subplan. She loves learning about technology, and is especially interested in delving deep into biotech and environmental tech while at Stanford. Aside from work, she loves travelling, painting and drinking really strong coffee.",
-    "image": "/Elinor_Tandberg.JPG"
-  },
-  {
-    "name": "Hasan Ahmad",
-    "role": "Chapter Relations Co-Director",
+    "name": "Amogh Chaturvedi",
+    "role": "Financial Officer",
     "description": "",
-    "image": "/Hasan_Ahmad.JPG"
+    "image": "/people/amogh.jpeg"
   },
   {
-    "name": "Emi Mathew",
-    "role": "Bootcamp Co-Director",
-    "description": "Emi is a sophomore from Miami studying CS & Biomedical Computation, interested in organ transplant and mental healthcare. In her free time, she enjoys lifting, playing Ultimate Frisbee, dancing on the Bhangra team, and watching Gilmore Girls. She's Bootcamp Co-Director with Saanvi and is excited to meet the next bootcamp cohort!",
-    "image": "/Emi_Mathew.JPG"
+    "name": "Allan Guo",
+    "role": "Financial Officer",
+    "description": "Allan is a rising sophomore (currently on leave) studying computer science. He is currently a co-founder of Willow, a company in YC S24. Since he was 10, he's done weird entrepreneurial endeavors such as an EDM music label, an app for dementia caregivers, and an e-commerce business targeting middle-aged moms (haha). He likes to read, play League, and eat good food.",
+    "image": "/people/allan.jpeg"
   },
   {
-    "name": "Saanvi Chawla",
-    "role": "Bootcamp Co-Director",
-    "description": "",
-    "image": "/Saanvi_Chawla.JPG"
-  },
-  {
-    "name": "Annie Villalta",
-    "role": "Community Co-Director",
-    "description": "",
-    "image": "/Annie_Villalta.jpg"
-  },
-  {
-    "name": "Yasmin Kotb",
-    "role": "Community Co-Director",
-    "description": "Yasmin is an incoming Junior at Stanford pursuing a B.S. in Biomedical Computations. She is excited to work with her co-Director, Annie, to host fun, interactive, and engaging events to get the ASES community together! She looks forward to the future club dinners, boba trips, and team building events while getting to know everyone in this super unique and cool space.",
-    "image": "/Yasmin_Kotb.jpg"
-  },
-  {
-    "name": "Jenny Wei",
-    "role": "Launchpad Co-Director",
-    "description": "Jenny is a sophomore from Dallas, Texas studying Computer Science and minoring in Music. She is interested in combining technology and creativity to build impactful solutions, particularly in the areas of education and social impact. In her free time, Jenny enjoys composing music, going on walks, and trying out new cafes.",
-    "image": "/Jenny_Wei.jpg"
-  },
-  {
-    "name": "Tatiana Zhang",
-    "role": "Launchpad Co-Director",
-    "description": "Tatiana Zhang is a sophomore from Hong Kong studying Data Science and Classics at Stanford. She first joined ASES through Bootcamp and Breakthrough, and is so excited to be leading Launchpad alongside Jenny this year. She is passionate about everything related to education, from teaching and tutoring to EdTech entrepreneurship, and is keen to promote equity and accessibility in the education space. She loves to read, listen to music, and walk her dog, Raffy, in her free time.",
-    "image": "/Tatiana_Zhang.jpg"
-  },
-  {
-    "name": "Kavita Kar",
+    "name": "Mafer Velásquez",
     "role": "Summit Co-Director",
-    "description": "Kavita is a second-year math major and Summit co-director. She interned at the Chicago Mercantile Exchange this summer and is passionate about quantitative finance. On campus, she also serves as the Engagement Officer at CYC and SUMO.",
-    "image": "/Kavita_Kar.JPG"
+    "description": "Maria Fernanda (Mafer for friends!) is a sophomore from Lima, Peru exploring the intersection between Electrical Engineering and Computer Science. She finds the use of artificial intelligence to optimize healthcare systems and climate-related solutions extremely fascinating. She also works as a photographer for the Stanford MS&E department and finds joy in dancing and running.",
+    "image": "/people/maria.jpeg"
   },
   {
-    "name": "Hristo Todorov",
+    "name": "Ghalyah Alhendi",
     "role": "Summit Co-Director",
+    "description": "Ghalyah Alhendi is a sophomore majoring in Data Science and Social Systems with a concentration in Technology and Society. Born and raised in Abu Dhabi, United Arab Emirates, Ghalyah takes immense pride in her Emirati heritage and eagerly looks forward to bringing that spirit to ASES' Annual International Summit! In her free time, you'll probably find her indulging in some retail therapy or scrolling through TikTok.",
+    "image": "/people/ghalyah.jpeg"
+  },
+  {
+    "name": "Katie Cheng",
+    "role": "VC3 Co-Director",
     "description": "",
-    "image": "/Hristo_Todorov.jpg"
+    "image": "/people/katie.jpeg"
   },
   {
-    "name": "Odin Farkas",
-    "role": "Engagement Co-Director",
-    "description": "Hi! I’m Odin. I’m from South Florida and am (tentatively) a CS major! Beyond entrepreneurship, some of my favorite things to do are surf, DJ, research about psychedelic medicine, and meet new people. Let’s grab lunch!",
-    "image": "/Odin_Farkas.JPG"
+    "name": "Eyrin Kim",
+    "role": "VC3 Co-Director",
+    "description": "Eyrin Kim is a sophomore from Tennessee studying Data Science and Earth Systems. She is passionate about fostering people-facing and people-driven work that creates meaningful change, particularly in the climate space. In her free time, you can catch Eyrin on sunset hikes and hunting for the perfect iced matcha.",
+    "image": "/people/eyrin.jpeg"
   },
   {
-    "name": "Sherry Liu",
+    "name": "Matthew Han",
     "role": "Engagement Co-Director",
-    "description": "Sherry will be one of your Engagement co-directors. She’s a sophomore from NC studying CS. She enjoys playing the guitar, going on logs, and watching the sunrise. She’s looking forward to a lovely year in ASES!",
-    "image": "/Sherry_Liu.JPG"
+    "description": "Matt is a Sophmore studying Economics and Public Policy. He is passionate about creating and researching impactful policy, tackling hard problems, and creating unique solutions. In his free time he loves to play guitar, cook, and cheer on his unfortunately tumultuous Philadelphia sports teams.",
+    "image": "/people/matt.jpeg"
+  },
+  {
+    "name": "Gabriel Nagel",
+    "role": "Engagement Co-Director",
+    "description": "",
+    "image": "/people/gabe.jpeg"
+  },
+  {
+    "name": "Dario Soatto",
+    "role": "Breakthrough Co-Director",
+    "description": "",
+    "image": "/people/dario.jpeg"
+  },
+  {
+    "name": "Brian Ni",
+    "role": "Breakthrough Co-Director",
+    "description": "Brian is a Junior from Hong Kong majoring in Materials Science with a minor in Earth Systems. He enjoys research in batteries and is deeply invested in energy solutions as the key to combating climate change and innovative technologies as a whole. In his free time, he enjoys basketball, music and exploring nature.",
+    "image": "/people/brian.jpeg"
+  },
+  {
+    "name": "Lawrence Liu",
+    "role": "Bootcamp Co-Director",
+    "description": "Lawrence is a rising sophomore (currently on leave), from Pittsburgh, PA. He intends to study Computer Science and Math. He's extremely passionate about entrepreneurship and leveraging technology to change the world. Outside of ASES, he's co-founding Willow, a startup in the YC S24 batch. He also loves fencing, volleyball, and piano—feel free to reach out to him at lliu45@stanford.edu!",
+    "image": "/people/lawrence.jpeg"
+  },
+  {
+    "name": "Arya Gupta",
+    "role": "Launchpad Co-Director",
+    "description": "Arya is a sophomore studying Data Science, CS, and Political Science. She's passionate about social and tech entrepreneurship especially in nutrition and education. She also loves researching the math behind social sciences. In her free time you can find her missing layups, listening to Bollywood music, or reading dystopian novels.",
+    "image": "/people/arya.jpeg"
+  },
+  {
+    "name": "Karen Vo",
+    "role": "Launchpad Co-Director",
+    "description": "Karen Vo is a sophomore from San Jose, California studying Computer Science, Biology, and/or MS&E. She is enthusiastic about advancing health technologies and human augmentation to push the boundaries of human potential. In her free time, she loves going to the gym, petting cats, and finding new viewpoints.",
+    "image": "/people/karen.jpeg"
+  },
+  {
+    "name": "Neva Hidajat",
+    "role": "Launchpad Co-Director",
+    "description": "Neva is a Sophomore studying Symbolic Systems. She is passionate about food and beverages. But more importantly impact entrepreneurship within the climate and healthtech spaces. She's been able to pursue her interests through her internship at East Ventures, Southeast Asia's largest VC firm spearheading the region's digital transformation and sustainable development. She loves nature, music, and smoothies with yogurt in them.",
+    "image": "/people/neva.jpeg"
+  },
+  {
+    "name": "Sanjay Kasi",
+    "role": "Alumni Co-Director",
+    "description": "Sanjay is a junior from New York majoring in MS&E. He enjoys learning about new technologies and human behavior. He is a captain of the Stanford fencing team and loves playing and watching sports. He is happy to hear from you at skasi@stanford.edu!",
+    "image": "/people/sanjay.jpeg"
+  },
+  {
+    "name": "Charles Legaspi",
+    "role": "Alumni Co-Director",
+    "description": "Charles is a junior from Los Angeles double majoring in Economics and English. He is passionate about the evolving fintech industry, entrepreneurship, and thrives on identifying growth opportunities for businesses and creating strategic partnerships. Outside of school, he loves fashion, going to the gym, playing soccer, and cooking all kinds of food!",
+    "image": "/people/charles.jpeg"
+  },
+  {
+    "name": "Grace Park",
+    "role": "Community Co-Director",
+    "description": "Grace is a sophomore studying mathematics and computer science. She enjoys learning about cryptography and its role in enhancing internet security, contributing to the advancement of a safer technological environment. Besides her academic passion, she loves to explore new places and spend time with her friends.",
+    "image": "/people/grace.jpeg"
+  },
+  {
+    "name": "Justin Leong",
+    "role": "Community Co-Director",
+    "description": "Justin is a sophomore studying Computer Science and Economics. He is passionate about entrepreneurship and using data to drive meaningful environmental change. In his free time, he loves missing wide open dunks in basketball and making smoothies.",
+    "image": "/people/justin.jpeg"
+  },
+  {
+    "name": "Tesvara Jiang",
+    "role": "Marketing Co-Director",
+    "description": "",
+    "image": "/people/tess.jpeg"
+  },
+  {
+    "name": "Dawen Cheng",
+    "role": "Marketing Co-Director",
+    "description": "Dawen is a sophomore studying Mechanical Engineering. He is passionate about green technology and infrastructure, and aims to use his background in engineering research and platform at ASEs to drive meaningful progress in these areas, especially through the startup sphere. Outside of ASEs, he enjoys listening to / making music, playing sports, and watching David Attenborough nature documentaries, but struggles with a concerning addiction to claw machines.",
+    "image": "/people/dawen.jpeg"
+  },
+  {
+    "name": "Ziyad Broker",
+    "role": "Chapter Relations Co-Director",
+    "description": "Ziyad is a sophomore studying Political Science (Political Economy track). Born in the UK, Ziyad grew up in Hong Kong and Singapore and is excited to harness this international perspective to expand ASES' global footprint. Outside of his involvement with ASES, Ziyad is a big-time Manchester United fan, a McLaren F1 supporter and a cricket enthusiast.",
+    "image": "/people/ziyad.jpeg"
+  },
+  {
+    "name": "Komal Vij",
+    "role": "Chapter Relations Co-Director",
+    "description": "Komal Vij is pursuing a major in Computer Science with a concentration in AI, driven by a deep passion for productivity software, extended reality, and entrepreneurship. She currently leads an innovative AI project, Top3 AI, at the Bay Area Founders Club. In her free time, Komal enjoys indulging in her massive herbal tea collection, exploring hiking trails, and experimenting with fusion cuisine.",
+    "image": "/people/komal.jpeg"
+  },
+  {
+    "name": "Welton",
+    "role": "Tech Director",
+    "description": "Welton is a sophomore from San Jose, CA interesting in business, computing, and psychology. He's helped start or worked at various startups in different capacities. Broadly, he's interested in incentive structures behind marketplaces and companies, and how these shape the end products people build. He's also likes hiking, cooking, playing the guitar, and political debates.",
+    "image": "/people/welton.jpeg"
   }
 ]

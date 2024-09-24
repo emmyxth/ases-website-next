@@ -1,24 +1,20 @@
-import Footer from "@/components/general/Footer";
 import TopBar from "@/components/general/Topbar";
+import VC3Header from "@/components/vc3/VC3Header";
+import VC3About from "@/components/vc3/VC3About";
+import VC3Investors from "@/components/vc3/VC3Investors";
+import VC3Stories from "@/components/vc3/VC3Stories";
+import VC3Apply from "@/components/vc3/VC3Apply";
+import Footer from "@/components/general/Footer";
 
 export default function VC3() {
   return (
     <>
       <TopBar />
-      <div
-        className="flex justify-center items-center bg-white py-24 h-screen"
-        style={{
-          fontSize: "calc(24px + 4vmin)",
-          fontWeight: "normal",
-          // fontFamily: "Space Grotesk",
-          color: "black",
-          fontWeight: "500",
-          maxWidth: "100%",
-          borderTop: "1px solid black",
-        }}
-      >
-        <h1>Under construction: Coming soon!</h1>
-      </div>
+      <VC3Header />
+      <VC3About />
+      <VC3Investors />
+      <VC3Stories />
+      <VC3Apply />
       <Footer />
     </>
   );

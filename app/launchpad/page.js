@@ -1,25 +1,20 @@
-import Footer from "@/components/general/Footer";
 import TopBar from "@/components/general/Topbar";
+import LaunchpadHeader from "@/components/launchpad/LaunchpadHeader";
+import LaunchpadAbout from "@/components/launchpad/LaunchpadAbout";
+import LaunchpadDetails from "@/components/launchpad/LaunchpadDetails";
+import LaunchpadProgram from "@/components/launchpad/LaunchpadProgram";
+import LaunchpadFAQ from "@/components/launchpad/LaunchpadFAQ";
+import Footer from "@/components/general/Footer";
 
 export default function Launchpad() {
   return (
     <>
       <TopBar />
-      <div
-        className="flex justify-center items-center bg-white py-24 h-full"
-        style={{
-          fontSize: "calc(24px + 4vmin)",
-          fontWeight: "normal",
-          // // fontFamily: "Space Grotesk",
-          color: "black",
-          fontWeight: "500",
-          maxWidth: "100%",
-          borderTop: "1px solid black",
-          //   height: "100%",
-        }}
-      >
-        <h1>Under construction: Coming soon!</h1>
-      </div>
+      <LaunchpadHeader />
+      <LaunchpadAbout />
+      <LaunchpadDetails />
+      <LaunchpadProgram />
+      <LaunchpadFAQ />
       <Footer />
     </>
   );

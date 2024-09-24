@@ -1,13 +1,15 @@
 import React from "react";
 import Button from "@mui/material/Button";
 import { Typography } from "@mui/material";
+import Link from "next/link";
 
-const ShortButtonCustomized = ({ text, link }) => {
+const ShortButtonCustomized = ({ text, link = "#", color = "black" }) => {
   return (
-    <>
+    <Link href={link} passHref>
       <Button
+        component="a"
         sx={{
-          color: "black",
+          color: color,
           backgroundColor: "transparent",
           borderRadius: 2,
           px: 2.5,
@@ -15,10 +17,11 @@ const ShortButtonCustomized = ({ text, link }) => {
           fontFamily: "Inter",
           fontSize: "calc(6px + 1.4vmin)",
           textTransform: "none",
-          border: "1.3px solid black",
+          border: "1.3px solid",
+          borderColor: color,
           "&:hover": {
-            backgroundColor: "black",
-            color: "white",
+            backgroundColor: color,
+            color: color === "black" ? "white" : "black",
           },
         }}
       >
@@ -32,7 +35,7 @@ const ShortButtonCustomized = ({ text, link }) => {
           {text}
         </Typography>
       </Button>
-    </>
+    </Link>
   );
 };
 

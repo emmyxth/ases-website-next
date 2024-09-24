@@ -1,25 +1,26 @@
-import Footer from "@/components/general/Footer";
 import TopBar from "@/components/general/Topbar";
+import SummitHeader from "@/components/summit/SummitHeader";
+import SummitSchedule from "@/components/summit/SummitSchedule";
+import SummitAbout from "@/components/summit/SummitAbout";
+import SummitValueProp from "@/components/summit/SummitValueProp";
+import SummitDetails from "@/components/summit/SummitDetails";
+import SummitSpeakers from "@/components/summit/SummitSpeakers";
+import SummitActivities from "@/components/summit/SummitActivities";
+import SummitTestimonials from "@/components/summit/SummitTestimonials";
+import Footer from "@/components/general/Footer";
 
 export default function Summit() {
   return (
     <>
       <TopBar />
-      <div
-        className="flex justify-center items-center bg-white py-24 h-full"
-        style={{
-          fontSize: "calc(24px + 4vmin)",
-          fontWeight: "normal",
-          // // fontFamily: "Space Grotesk",
-          color: "black",
-          fontWeight: "500",
-          maxWidth: "100%",
-          borderTop: "1px solid black",
-          //   height: "100%",
-        }}
-      >
-        <h1>Under construction: Coming soon!</h1>
-      </div>
+      <SummitHeader />
+      <SummitSchedule />
+      <SummitAbout />
+      <SummitValueProp />
+      <SummitDetails />
+      <SummitSpeakers />
+      <SummitActivities />
+      <SummitTestimonials />
       <Footer />
     </>
   );

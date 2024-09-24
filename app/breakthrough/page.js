@@ -18,7 +18,7 @@ export default function Breakthrough() {
           //   height: "100%",
         }}
       >
-        <h1>Under construction: Coming soon!</h1>
+        <h1>Coming soon!</h1>
       </div>
       <Footer />
     </>
