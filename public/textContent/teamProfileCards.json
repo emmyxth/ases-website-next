@@ -30,6 +30,12 @@
     "image": "/people/allan.jpeg"
   },
   {
+    "name": "Welton",
+    "role": "Tech Director",
+    "description": "Welton is a sophomore from San Jose, CA interesting in business, computing, and psychology. He's helped start or worked at various startups in different capacities. Broadly, he's interested in incentive structures behind marketplaces and companies, and how these shape the end products people build. He's also likes hiking, cooking, playing the guitar, and political debates.",
+    "image": "/people/welton.jpeg"
+  },
+  {
     "name": "Mafer Velásquez",
     "role": "Summit Co-Director",
     "description": "Maria Fernanda (Mafer for friends!) is a sophomore from Lima, Peru exploring the intersection between Electrical Engineering and Computer Science. She finds the use of artificial intelligence to optimize healthcare systems and climate-related solutions extremely fascinating. She also works as a photographer for the Stanford MS&E department and finds joy in dancing and running.",
@@ -148,11 +154,5 @@
     "role": "Chapter Relations Co-Director",
     "description": "Komal Vij is pursuing a major in Computer Science with a concentration in AI, driven by a deep passion for productivity software, extended reality, and entrepreneurship. She currently leads an innovative AI project, Top3 AI, at the Bay Area Founders Club. In her free time, Komal enjoys indulging in her massive herbal tea collection, exploring hiking trails, and experimenting with fusion cuisine.",
     "image": "/people/komal.jpeg"
-  },
-  {
-    "name": "Welton",
-    "role": "Tech Director",
-    "description": "Welton is a sophomore from San Jose, CA interesting in business, computing, and psychology. He's helped start or worked at various startups in different capacities. Broadly, he's interested in incentive structures behind marketplaces and companies, and how these shape the end products people build. He's also likes hiking, cooking, playing the guitar, and political debates.",
-    "image": "/people/welton.jpeg"
   }
 ]
