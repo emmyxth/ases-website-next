@@ -31,7 +31,7 @@ const Footer = () => {
           display: "flex",
           flexDirection: "column",
           rowGap: "0.6rem",
-          alignItems: "center",
+          alignItems: "left",
           justifyContent: "center",
           textAlign: "center",
           justifySelf: "center",
@@ -42,7 +42,7 @@ const Footer = () => {
             display: "flex",
             flexDirection: "row",
             width: "80%",
-            alignItems: "center",
+            alignItems: "left",
           }}
         >
           <a href="/">
@@ -68,13 +68,13 @@ const Footer = () => {
           </a>
         </Box>
         <Typography className="footer_body" sx={{ paddingTop: 1 }}>
-          Solve Global Problems
+          Solve global problems.
         </Typography>
         <Box
-          sx={{ display: "flex", flexDirection: "row", columnGap: "0.2rem" }}
+          sx={{ display: "flex", flexDirection: "row", columnGap: "0.2rem", justifyContent: "flex-start" }}
         >
-          <IconButton href="https://www.instagram.com/asesstanford/?hl=en">
-            <InstagramIcon sx={{ color: "white" }} />
+          <IconButton sx={{ paddingLeft: "0" }} href="https://www.instagram.com/asesstanford/?hl=en">
+            <InstagramIcon sx={{ color: "white"}} />
           </IconButton>
           <IconButton href="https://www.linkedin.com/company/asesstanford/mycompany/">
             <LinkedInIcon sx={{ color: "white" }} />
@@ -91,7 +91,7 @@ const Footer = () => {
           columnGap: "3rem",
           flexWrap: "wrap",
           rowGap: "2rem",
-          justifyContent: "center",
+          justifyContent: "center"
         }}
       >
         <Box
