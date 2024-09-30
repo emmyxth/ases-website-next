@@ -1,0 +1,37 @@
+[
+  {
+    "header": "Bootcamp",
+    "description": "ASES Bootcamp is a 12-week design-thinking intensive for Stanford freshmen that serves as a stepping stone into the world of entrepreneurship. Following an innovative, action-oriented process, students will learn to identify and prototype impactful solutions to problems they’re interested in tackling. Bootcamp culminates in a final pitch presentation, in which teams pitch their startup ideas to a panel of Silicon Valley investors. This year, each team will build a Minimum Viable Product, with the prospect of funding post final presentations! You'll get a chance to have dinners and roundtable discussions with venture capitalists, mentorship from industry professionals, a chance to pitch at VC offices across the Bay Area, and the opportunity to join Stanford’s closest-knit startup community!",
+    "image": "/timeline-bootcamp.jpg",
+    "timeframe": "September - January",
+    "link": "/bootcamp"
+  },
+  {
+    "header": "Launchpad",
+    "description": "We've all been high schoolers at one point so we know that high schoolers have great ideas! Launchpad is all about enabling these students to turn their ideas into realities, whether they be simple websites advances mobile apps, or fast growing businesses..",
+    "image": "/timeline-launchpad.jpg",
+    "timeframe": "September - January",
+    "link": "/launchpad"
+  },
+  {
+    "header": "VC3",
+    "description": "VC3 brings together top Stanford startups and Silicon Valley venture capitalists for a fast-paced, speed-dating style pitch competition. Startup participants get access to an exclusive VC network, personalized feedback, and a shot at some unique prizes. The event has sparked some outlier outcomes, with startups like PlaygroundRL (pre-seed, Pear), Skybox Imaging (acq. by Google for $500M), and TranscribeGlass (recently viral) previously in attendance.Past VCs have included Sequoia, a16z, YCombinator, NEA, Redpoint, Pear, Floodgate, and more.",
+    "image": "/timeline-vc3.jpg",
+    "timeframe": "February - March",
+    "link": "/vc3"
+  },
+  {
+    "header": "Summit",
+    "description": "35 of the best collegiate entrepreneurs from around the world are invited to a weeklong entrepreneurship immersion at Stanford University. In this exclusive program, delegates work in teams to launch their own startups, iterating through design and receiving feedback from industry-renowned guest speakers and venture capitalists. During Summit, delegates and ASES members alike have the opportunity to network with other top entrepreneurs and learn from Stanford's world-class faculty.",
+    "image": "/timeline-summit.jpg",
+    "timeframe": "February - March",
+    "link": "/summit"
+  },
+  {
+    "header": "Breakthrough",
+    "description": "Every Spring, we select a cohort of Stanford undergraduate, graduate, and even PhD students, partner them with VC Mentors from top VC firms nearby, and curate an 8-week curriculum that teaches entrepreneurship from a VC perspective. You'll learn the fundamentals of working in venture capital from the ground-up, with a proven expert of your favorite industry.",
+    "image": "/timeline-breakthrough.jpg",
+    "timeframe": "February - March",
+    "link": "/breakthrough"
+  }
+]
