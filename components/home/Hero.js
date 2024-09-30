@@ -35,7 +35,7 @@ export default function Hero() {
           <LongButtonWArrowCustomized
             text={"Join us today"}
             link={
-              "https://asesstanford.typeform.com/to/Ua0h4TbG?typeform-source=ases.stanford.edu"
+              "https://asesstanford.typeform.com/2024-2025Team"
             }
           />
         </div>

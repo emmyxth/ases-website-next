@@ -10,6 +10,13 @@
   padding: 40px; /* Adds padding to the container */
 }
 
+.verticalContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+}
+
 .profile_cards {
   display: flex;
   justify-content: center;
@@ -43,9 +50,9 @@
     display: block;
   }
   .teams_gradient {
-    height: 600px;
+    height: 100%;
   }
   .profile_cards {
-    height: 500px;
+    height: auto;
   }
 }

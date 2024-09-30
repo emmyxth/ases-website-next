@@ -25,7 +25,7 @@ export default function Apply() {
       </h1>
       <LongButtonWOArrow
         text="Sign Up!"
-        link="https://asesstanford.typeform.com/to/Ua0h4TbG?typeform-source=ases.stanford.edu"
+        link="https://asesstanford.typeform.com/2024-2025Team"
       />
     </Box>
   );
