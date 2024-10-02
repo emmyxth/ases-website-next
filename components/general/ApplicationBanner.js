@@ -10,7 +10,7 @@ const ApplicationBanner = () => {
     >
       <div className="max-w-[1280px] mx-auto flex justify-center items-center mobile:flex-col desktop:flex-row">
         <p className="text-lg mr-4 mobile:mb-2 desktop:mb-0">
-          Bootcamp Applications are open.
+          Bootcamp Applications are open!
         </p>
         <ShortButton
           text="APPLY NOW"
