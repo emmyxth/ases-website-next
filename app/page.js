@@ -9,6 +9,7 @@ import FAQs from "@/components/home/FAQSection.jsx";
 import SponsorsBanner from "@/components/home/SponsorsBanner";
 import TopBar from "@/components/general/Topbar";
 import Box from "@mui/material/Box";
+import ApplicationBanner from "@/components/general/ApplicationBanner"; // Add this import
 
 export default function Home() {
   return (
@@ -25,6 +26,7 @@ export default function Home() {
       </Head>
       <Box>
         <TopBar />
+        <ApplicationBanner /> {/* Moved this line below TopBar */}
         <Hero />
         <Since1988 />
         <Testimonials />

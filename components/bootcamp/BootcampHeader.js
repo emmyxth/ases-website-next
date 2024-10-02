@@ -37,7 +37,7 @@ export default function BootcampHeader() {
           >
             Solve wicked problems in our 12-week design-thinking intensive
           </p>
-          <ShortButton text={"Apply today"} />
+          <ShortButton text={"Apply today"} link={"https://asesstanford.typeform.com/2024-2025Team"} />
         </div>
         <div className="flex items-center justify-center desktop:pt-5 mobile:pt-2 mobile:pb-8">
           <img src="/bootcamp-header.jpg" className="align-self-center" />
