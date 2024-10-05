@@ -36,7 +36,7 @@ export default function Since1988() {
               textAlign: "left",
               fontWeight: "400",
             }}
-            words={["Since 1988"]}
+            words={["Since 1989"]}
             noDelete={true}
           />
           <Typography
@@ -48,7 +48,7 @@ export default function Since1988() {
             }}
           >
             ASES (Affiliated Stanford Entrepreneurial Students) was founded at
-            Stanford University in 1998 with the goal of connecting student
+            Stanford University in 1989 with the goal of connecting student
             entrepreneurs all over the world. Today, active ASES chapters
             provide educational programs on entrepreneurship, design, and
             venture capital for students across the globe. We challenge our
