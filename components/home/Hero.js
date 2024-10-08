@@ -41,6 +41,7 @@ export default function Hero() {
         </div>
         <div className="flex align-end justify-center pt-5">
           <video
+            playsInline
             autoPlay
             loop
             muted

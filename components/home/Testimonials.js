@@ -37,6 +37,7 @@ export default function Testimonials() {
         autoPlay
         loop
         muted
+        playsInline
         id="video"
         style={{
           position: "absolute",

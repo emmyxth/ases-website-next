@@ -12,8 +12,9 @@ export default function BootcampHeader() {
         autoPlay
         loop
         muted
+        playsInline
       >
-        <source src="/bootcamp-hero-gradient.mp4" type="video/mp4" />
+        <source src="/bootcamp-hero-gradient.mp4" type="video/mp4"  />
       </video>
       <div className="flex pt-8 desktop:flex-row mobile:flex-col px-8 mobile:px-0 w-full mobile:gap-y-2 desktop:justify-around desktop:px-12 overflow-hidden">
         <div className="relative flex flex-col flex mobile:w-full desktop:w-2/5 desktop:pt-9 desktop:pl-9 desktop:items-start mobile:items-center gap-y-10 mobile:px-8 mobile:text-center desktop:text-left">
