@@ -28,7 +28,7 @@ export default function SummitHeader() {
               <br />
               most enthusiastic entrepreneurs.
             </h1>
-            <ShortButton text={"Apply Now"} link={"#"} color={"white"} />
+            <ShortButton text={"Apply Now"} link={"https://docs.google.com/forms/d/e/1FAIpQLScSLb72qT5OJdJts3AEG98opPVL97Smxqu1bC2Wetp2ZU6q_Q/viewform"} color={"white"} />
           </div>
         </div>
       </div>
