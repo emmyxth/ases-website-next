@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d4ce492a.css",
+    "main.js": "/static/js/main.edd53388.js",
+    "static/js/453.559fdf8d.chunk.js": "/static/js/453.559fdf8d.chunk.js",
+    "static/media/DSC01764.jpg": "/static/media/DSC01764.ea4b46f8597a69c8cb30.jpg",
+    "static/media/DSC01598.jpg": "/static/media/DSC01598.b76826ba093fd86f8d7f.jpg",
+    "static/media/DSC01714.jpg": "/static/media/DSC01714.3ab7a89a5ab584c45426.jpg",
+    "static/media/DSC01558.jpg": "/static/media/DSC01558.96b6d9b4ce44a8d3bf49.jpg",
+    "static/media/DSC01766.jpg": "/static/media/DSC01766.9a62a4d204b40f38cc86.jpg",
+    "static/media/dorothy.jpg": "/static/media/dorothy.3cf448d578a9319dadd9.jpg",
+    "static/media/stanley.jpg": "/static/media/stanley.714c26f3a5846cc6549b.jpg",
+    "static/media/remus.jpg": "/static/media/remus.cb32b6c9f689362065ff.jpg",
+    "static/media/sharan.jpg": "/static/media/sharan.dd83d0c7a9ae1ec6caa4.jpg",
+    "static/media/Jyim.jpg": "/static/media/Jyim.a24768daa7c04c97e3e5.jpg",
+    "static/media/sally.jpg": "/static/media/sally.4884d8d663e88bc0ad7e.jpg",
+    "static/media/reese.jpg": "/static/media/reese.1dc174ac9f68292e2164.jpg",
+    "static/media/stanford.png": "/static/media/stanford.58dcb0093567a7dcc443.png",
+    "static/media/kings.png": "/static/media/kings.347b1d803fb667c95f84.png",
+    "static/media/brian.jpg": "/static/media/brian.80d8af0188a4a6e816b7.jpg",
+    "static/media/instagram.png": "/static/media/instagram.e26c29ecd1c15782b99f.png",
+    "static/media/lse.png": "/static/media/lse.48f81139bd13a3f6dd0c.png",
+    "index.html": "/index.html",
+    "main.d4ce492a.css.map": "/static/css/main.d4ce492a.css.map",
+    "main.edd53388.js.map": "/static/js/main.edd53388.js.map",
+    "453.559fdf8d.chunk.js.map": "/static/js/453.559fdf8d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d4ce492a.css",
+    "static/js/main.edd53388.js"
+  ]
+}

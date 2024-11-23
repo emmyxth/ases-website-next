@@ -14,9 +14,13 @@ import CloseIcon from "@mui/icons-material/Close";
 import Image from "next/image";
 import Link from "next/link";
 import styles from "./Topbar.module.css";
+import Menu from "@mui/material/Menu";
+import MenuItem from "@mui/material/MenuItem";
 
 export default function Topbar() {
   const [isDrawerOpen, setIsDrawerOpen] = useState(false);
+  const [chaptersAnchorEl, setChaptersAnchorEl] = useState(null);
+  const [mobileChaptersAnchorEl, setMobileChaptersAnchorEl] = useState(null);
 
   const handleDrawerOpen = () => {
     setIsDrawerOpen(true);
@@ -24,6 +28,22 @@ export default function Topbar() {
 
   const handleDrawerClose = () => {
     setIsDrawerOpen(false);
+  };
+
+  const handleChaptersClick = (event) => {
+    setChaptersAnchorEl(event.currentTarget);
+  };
+
+  const handleChaptersClose = () => {
+    setChaptersAnchorEl(null);
+  };
+
+  const handleMobileChaptersClick = (event) => {
+    setMobileChaptersAnchorEl(event.currentTarget);
+  };
+
+  const handleMobileChaptersClose = () => {
+    setMobileChaptersAnchorEl(null);
   };
 
   return (
@@ -62,7 +82,6 @@ export default function Topbar() {
               <Link href="/" style={{ textDecoration: "none" }}>
                 <Typography
                   sx={{
-                    // fontFamily: "Space Grotesk",
                     fontSize: 40,
                     color: "#101828",
                     fontWeight: "bold",
@@ -83,7 +102,6 @@ export default function Topbar() {
                 <Link href="/" style={{ textDecoration: "none" }}>
                   <Typography
                     sx={{
-                      // fontFamily: "Inter",
                       fontSize: 16,
                       color: "#667085",
                       fontWeight: "bold",
@@ -96,7 +114,6 @@ export default function Topbar() {
                 <Link href="/#programs" style={{ textDecoration: "none" }}>
                   <Typography
                     sx={{
-                      // fontFamily: "Inter",
                       fontSize: 16,
                       color: "#667085",
                       fontWeight: "bold",
@@ -104,14 +121,11 @@ export default function Topbar() {
                     }}
                   >
                     Programs
-                    {/* <KeyboardArrowDownIcon /> */}
                   </Typography>
-                  {/* </ScrollLink> */}
                 </Link>
                 <Link href="/#about" style={{ textDecoration: "none" }}>
                   <Typography
                     sx={{
-                      // fontFamily: "Inter",
                       fontSize: 16,
                       color: "#667085",
                       fontWeight: "bold",
@@ -124,7 +138,6 @@ export default function Topbar() {
                 <Link href="/#faq" style={{ textDecoration: "none" }}>
                   <Typography
                     sx={{
-                      // fontFamily: "Inter",
                       fontSize: 16,
                       color: "#667085",
                       fontWeight: "bold",
@@ -137,7 +150,6 @@ export default function Topbar() {
                 <Link href="/team" style={{ textDecoration: "none" }}>
                   <Typography
                     sx={{
-                      // fontFamily: "Inter",
                       fontSize: 16,
                       color: "#667085",
                       fontWeight: "bold",
@@ -150,7 +162,6 @@ export default function Topbar() {
                 <Link href="/#sponsors" style={{ textDecoration: "none" }}>
                   <Typography
                     sx={{
-                      // fontFamily: "Inter",
                       fontSize: 16,
                       color: "#667085",
                       fontWeight: "bold",
@@ -160,10 +171,37 @@ export default function Topbar() {
                     Sponsors
                   </Typography>
                 </Link>
+                <Box>
+                  <Typography
+                    onClick={handleChaptersClick}
+                    sx={{
+                      fontSize: 16,
+                      color: "#667085",
+                      fontWeight: "bold",
+                      marginRight: "20px",
+                      cursor: "pointer",
+                      display: "flex",
+                      alignItems: "center"
+                    }}
+                  >
+                    Chapters
+                    <KeyboardArrowDownIcon />
+                  </Typography>
+                  <Menu
+                    anchorEl={chaptersAnchorEl}
+                    open={Boolean(chaptersAnchorEl)}
+                    onClose={handleChaptersClose}
+                  >
+                    <MenuItem onClick={handleChaptersClose}>
+                      <Link href="/london" style={{ textDecoration: "none", color: "#667085" }}>
+                        London
+                      </Link>
+                    </MenuItem>
+                  </Menu>
+                </Box>
               </Box>
               <Typography
                 sx={{
-                  // fontFamily: "Inter",
                   fontSize: 16,
                   color: "#667085",
                   fontWeight: "bold",
@@ -206,7 +244,6 @@ export default function Topbar() {
               <Link href="/" style={{ textDecoration: "none" }}>
                 <Typography
                   sx={{
-                    // fontFamily: "Space Grotesk",
                     fontSize: 30,
                     color: "#101828",
                     fontWeight: "bold",
@@ -257,7 +294,6 @@ export default function Topbar() {
             ></img>
             <Typography
               sx={{
-                // fontFamily: "Space Grotesk",
                 fontSize: 30,
                 color: "#101828",
                 fontWeight: "bold",
@@ -274,7 +310,6 @@ export default function Topbar() {
         <Link href="/#home" style={{ textDecoration: "none" }}>
           <ListItem
             sx={{
-              // fontFamily: "Inter",
               fontSize: 16,
               color: "#667085",
               fontWeight: "bold",
@@ -287,7 +322,6 @@ export default function Topbar() {
         <Link href="/#programsHome" style={{ textDecoration: "none" }}>
           <ListItem
             sx={{
-              // fontFamily: "Inter",
               fontSize: 16,
               color: "#667085",
               fontWeight: "bold",
@@ -300,7 +334,6 @@ export default function Topbar() {
         <Link href="/#about" style={{ textDecoration: "none" }}>
           <ListItem
             sx={{
-              // fontFamily: "Inter",
               fontSize: 16,
               color: "#667085",
               fontWeight: "bold",
@@ -313,7 +346,6 @@ export default function Topbar() {
         <Link href="/#faq" style={{ textDecoration: "none" }}>
           <ListItem
             sx={{
-              // fontFamily: "Inter",
               fontSize: 16,
               color: "#667085",
               fontWeight: "bold",
@@ -326,7 +358,6 @@ export default function Topbar() {
         <Link href="/team" style={{ textDecoration: "none" }}>
           <ListItem
             sx={{
-              // fontFamily: "Inter",
               fontSize: 16,
               color: "#667085",
               fontWeight: "bold",
@@ -339,7 +370,6 @@ export default function Topbar() {
         <Link href="/#sponsors" style={{ textDecoration: "none" }}>
           <ListItem
             sx={{
-              // fontFamily: "Inter",
               fontSize: 16,
               color: "#667085",
               fontWeight: "bold",
@@ -350,8 +380,33 @@ export default function Topbar() {
           </ListItem>
         </Link>
         <ListItem
+          onClick={handleMobileChaptersClick}
           sx={{
-            // fontFamily: "Inter",
+            fontSize: 16,
+            color: "#667085",
+            fontWeight: "bold",
+            marginRight: "20px",
+            cursor: "pointer",
+            display: "flex",
+            alignItems: "center"
+          }}
+        >
+          Chapters
+          <KeyboardArrowDownIcon />
+        </ListItem>
+        <Menu
+          anchorEl={mobileChaptersAnchorEl}
+          open={Boolean(mobileChaptersAnchorEl)}
+          onClose={handleMobileChaptersClose}
+        >
+          <MenuItem onClick={handleMobileChaptersClose}>
+            <Link href="/london" style={{ textDecoration: "none", color: "#667085" }}>
+              London
+            </Link>
+          </MenuItem>
+        </Menu>
+        <ListItem
+          sx={{
             fontSize: 16,
             color: "#667085",
             fontWeight: "bold",

@@ -1,8 +1,8 @@
 export default function SummitDetails() {
   const details = [
-    { icon: "people", title: "Summit Dates", description: "March 30 – April 4, 2024" },
-    { icon: "calendar", title: "Early Application Deadline", description: "November 15, 2023" },
-    { icon: "calendar", title: "Final Application Deadline", description: "January 15th, 2024" },
+    { icon: "people", title: "Summit Dates", description: "April 7th - April 13th 2024" },
+    { icon: "calendar", title: "Early Application Deadline", description: "December 22, 2024" },
+    { icon: "calendar", title: "Final Application Deadline", description: "January 9th, 2025" },
     { icon: "location", title: "Location", description: "Stanford, California" },
   ];
 
