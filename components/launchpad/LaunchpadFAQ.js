@@ -18,7 +18,7 @@ export default function LaunchpadFAQ() {
     },
     {
       question: "I have more questions. Who can I contact?",
-      answer: "Reach out to the Launchpad co-directors Tatiana Zhang (tytzhang@stanford.edu) and Jenny Wei (jennywei@stanford.edu) with any questions.",
+      answer: "Reach out to the Launchpad co-directors Karen Vo (karenvo@stanford.edu) and Neva Hidajat (hidajat@stanford.edu) with any questions.",
     },
   ];
 

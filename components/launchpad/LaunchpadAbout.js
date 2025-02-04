@@ -17,7 +17,7 @@ export default function LaunchpadAbout() {
         >
           This year, <span className="text-accent">Launchpad</span> is about
           <br />
-          building for <span className="text-accent">social good</span>.
+          aiming for the <span className="text-accent">Moon</span>.
         </h2>
         <Typography
           className="text-center max-w-3xl mx-auto"
@@ -26,7 +26,7 @@ export default function LaunchpadAbout() {
             fontWeight: "300",
           }}
         >
-          ASES Launchpad is a <strong>two-day</strong> event for high school students across the country to explore the fundamentals of entrepreneurship. This year, our in-person program explores the theme of <strong>Social Good in San Francisco</strong>. In teams, you will create socially impactful ideas to tackle various issues in San Francisco—such as food security, transportation, and housing—and we'll provide you with the skills to turn that idea into a viable prototype and pitch.
+          ASES Launchpad is a <strong>two-day</strong> event for high school students across the country to explore the fundamentals of entrepreneurship. This year, our in-person program explores the <strong>Moonshot theme</strong> of aiming for solutions that revolutionize a field. In teams, you will create socially impactful ideas that disrupt the industry by providing values that add to humanity.
         </Typography>
         <Typography
           className="text-center max-w-3xl mx-auto"

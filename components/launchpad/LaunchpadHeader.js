@@ -36,11 +36,11 @@ export default function LaunchpadHeader() {
                 color: "white",
               }}
             >
-              Join us for <span className="text-accent">Launchpad 2024.</span>
+              Join us for <span className="text-accent">Launchpad 2025.</span>
               <br />
               We'll take you from idea to <span className="text-accent">launch</span>.
             </p>
-            <ShortButton text={"Apply Here By May 17th"} link={"https://forms.gle/SeB5pzAWxstfsUF56"} color={"white"} />
+            <ShortButton text={"Apply Here By March 21st"} link={"https://forms.gle/SeB5pzAWxstfsUF56"} color={"white"} />
           </div>
         </div>
       </div>

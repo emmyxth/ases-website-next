@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Haley Tran",
+    "role": "Operations Manager @ Ramp",
+    "description": "Joining ASES Bootcamp my freshman year was definitely one of my most fulfilling Stanford experiences in both a social and entrepreneurial context. I’ve met some of my best friends through the organization. It allowed me not only to explore what it means to be an entrepreneur outside of just Silicon Valley, but become a part of a close-knit community here at Stanford.",
+    "image": "/hayley_tran.jpg"
+  },
+  {
+    "name": "Charles Tsao",
+    "role": "ASIC Engineer @ NVIDIA",
+    "description": "Joining ASES through the Bootcamp program my frosh fall was one of the most important decisions I’ve made during my time at Stanford. Not only did I learn an incredible amount from knowing nearly nothing about entrepreneurship, I was sucked into a community of amazing people that extends around the world. I absolutely love my friends (family!) in ASES.",
+    "image": "/charles_tsao.jpg"
+  },
+  {
+    "name": "Alex Lin",
+    "role": "Software Investor at JMI Equity",
+    "description": "I joined ASES my freshman year and I immediately felt at home with the welcoming community. It was easy to talk to everyone and I made tight-knit friends both in and outside of bootcamp at quarterly retreats and team events. I developed personally and professionally and was able to learn valuable entrepreneurial skills and apply them to real-world experiences.",
+    "image": "/alex_lin.jpg"
+  }
+]
