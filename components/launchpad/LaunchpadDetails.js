@@ -6,8 +6,8 @@ export default function LaunchpadDetails() {
     { label: "When:", answer: "Saturday, April 12th - Sunday, April 13th, 2025\n9:00AM - 5:30PM PDT each day" },
     { label: "Who:", answer: "Any student between grades 9 to 12" },
     { label: "Program Cost:", answer: "Free" },
-    { label: "Application Deadline:", answer: "Friday, March 7th, 2025, 11:59PM" },
-    { label: "Application Results Released:", answer: "Saturday, March 21th, 2025, 11:59PM" },
+    { label: "Application Opens:", answer: "Thursday, March 7th, 2025, 11:59PM" },
+    { label: "Application Deadline:", answer: "Thursday, March 21st, 2025, 11:59PM" },
   ];
 
   return (
@@ -33,7 +33,7 @@ export default function LaunchpadDetails() {
           ))}
         </div>
         <div className="text-center mt-8">
-          <ShortButton text={"Apply"} link={"https://forms.gle/SeB5pzAWxstfsUF56"} color={"white"} />
+          <ShortButton text={"Apply"} link={"https://forms.gle/XidiDoD6rYspsvNW8"} color={"white"} />
         </div>
       </div>
     </div>
