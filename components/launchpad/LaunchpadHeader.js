@@ -40,7 +40,7 @@ export default function LaunchpadHeader() {
               <br />
               We'll take you from idea to <span className="text-accent">launch</span>.
             </p>
-            <ShortButton text={"Apply Here By March 21st"} link={"https://forms.gle/XidiDoD6rYspsvNW8"} color={"white"} />
+            <ShortButton text={"Apply Here By April 11th"} link={"https://forms.gle/XidiDoD6rYspsvNW8"} color={"white"} />
           </div>
         </div>
       </div>

@@ -1,13 +1,12 @@
 import ShortButton from "../general/ShortButton";
-
 export default function LaunchpadDetails() {
   const details = [
     { label: "Where:", answer: "Stanford University" },
-    { label: "When:", answer: "Saturday, April 12th - Sunday, April 13th, 2025\n9:00AM - 5:30PM PDT each day" },
+    { label: "When:", answer: "Saturday, April 26th - Sunday, April 27th, 2025\n9:00AM - 5:30PM PST each day" },
     { label: "Who:", answer: "Any student between grades 9 to 12" },
     { label: "Program Cost:", answer: "Free" },
-    { label: "Application Opens:", answer: "Thursday, March 7th, 2025, 11:59PM" },
-    { label: "Application Deadline:", answer: "Thursday, March 21st, 2025, 11:59PM" },
+    { label: "Application Opens:", answer: "Friday, March 7th, 2025, 11:59PM" },
+    { label: "Application Deadline:", answer: "Friday, April 11th, 2025, 11:59PM" },
   ];
 
   return (
