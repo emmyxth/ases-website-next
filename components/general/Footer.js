@@ -73,7 +73,7 @@ const Footer = () => {
         <Box
           sx={{ display: "flex", flexDirection: "row", columnGap: "0.2rem", justifyContent: "flex-start" }}
         >
-          <IconButton sx={{ paddingLeft: "0" }} href="https://www.instagram.com/asesstanford/?hl=en">
+          <IconButton sx={{ paddingLeft: "0" }} href="https://www.instagram.com/stanfordases/?hl=en">
             <InstagramIcon sx={{ color: "white"}} />
           </IconButton>
           <IconButton href="https://www.linkedin.com/company/asesstanford/mycompany/">
