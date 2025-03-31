@@ -13,7 +13,7 @@ export default function SummitSchedule() {
         >
           Summit Schedule
         </h2>
-        <img src="/summit_schedule.png" alt="Summit Calendar" className="w-full h-auto" />
+        <img src="/summit_2025.png" alt="Summit Calendar" className="w-full h-auto" />
       </div>
     </div>
   );
