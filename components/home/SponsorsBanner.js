@@ -19,6 +19,8 @@ const SponsorsBanner = () => {
     "/Think.jpg",
     "/WIL.jpg",
     "/ZhenFund.jpg",
+    "/SpringCamp.jpg",
+    "/JaneStreet.jpg",
   ];
   return (
     // <a  suppressHydrationWarning>
